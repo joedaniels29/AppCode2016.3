@@ -1,0 +1,111 @@
+<templateSet group="Mantle">
+  <template name="mstr" value="@property (nonatomic, nullable, copy, readonly) NSString * __nonnull  $END$;" description="Mantle string" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="mdte" value="@property (nonatomic, nullable, strong) NSDate * __nonnull $END$;" description="mantle date" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="mbol" value="@property (readonly, nonatomic, assign, getter = $GETTER$) BOOL $END$;" description="Mantle bool" toReformat="false" toShortenFQNames="true">
+    <variable name="GETTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="str" value="@property (nonatomic, nullable, copy, readonly) NSString * $SELECTION$;$END$" description="Mantle string" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="bol" value="@property (readonly, nonatomic, assign, getter = $GETTER$) BOOL $SELECTION$;$END$" description="Mantle bool" toReformat="false" toShortenFQNames="true">
+    <variable name="GETTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="dte" value="@property (nonatomic, nullable, strong) NSDate * $SELECTION$;$END$" description="mantle date" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="@MTL" value="@interface $END$ : MTLModel &lt;MTLJSONSerializing&gt;&#10;&#10;@end" description="Mantle Class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="ppo" value="@&quot;$THING$&quot;:@&quot;$THING1$&quot;,$END$" description="mapping" toReformat="false" toShortenFQNames="true">
+    <variable name="THING" expression="" defaultValue="&quot;oid&quot;" alwaysStopAt="true" />
+    <variable name="THING1" expression="" defaultValue="THING" alwaysStopAt="true" />
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="mnum" value="@property (nonatomic, nonnull, copy, readonly) NSNumber * $END$;" description="Mantle Number" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="num" value="@property (nonatomic, nullable, copy, readonly) NSNumber * __nonnull  $SELECTION$;$END$" description="Mantle string" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="murl" value="@property (nonatomic, nullable, strong) NSURL * __nonnull  $END$;" description="mantle url" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="url" value="@property (nonatomic, nullable, strong) NSURL * $SELECTION$;$END$" description="mantle url" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="miurl" value="+ (NSValueTransformer *)$NAME$JSONTransformer {&#10;    return [NSValueTransformer valueTransformerForName:MTLURLValueTransformerName];&#10;}&#10;$END$" description="mantle url" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="iurl" value="+ (NSValueTransformer *)$SELECTION$JSONTransformer {&#10;    return [NSValueTransformer valueTransformerForName:MTLURLValueTransformerName];&#10;}&#10;$END$" description="mantle url Implementation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="idat" value="+ (NSValueTransformer *)$SELECTION$JSONTransformer {&#10;    return [MTLValueTransformer transformerUsingForwardBlock:^id(NSString *dateString, BOOL *success, NSError *__autoreleasing *error) {&#10;        return [self.dateFormatter dateFromString:dateString];&#10;    } reverseBlock:^id(NSDate *date, BOOL *success, NSError *__autoreleasing *error) {&#10;        return [self.dateFormatter stringFromDate:date];&#10;    }];&#10;}&#10;$END$" description="mantle date Implementation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="mdattr" value="+ (NSDateFormatter *)dateFormatter {&#10;   NSDateFormatter *df = [[NSDateFormatter alloc] init];&#10;    //Wed Dec 01 17:08:03 +0000 2010&#10;    [df setDateFormat:@&quot;eee MMM dd HH:mm:ss ZZZZ yyyy&quot;];&#10;    return df;&#10;}&#10;$END$" description="mantle (twitter) date formatter implementation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="midat" value="+ (NSValueTransformer *)$NAME$JSONTransformer {&#10;    return [MTLValueTransformer transformerUsingForwardBlock:^id(NSString *dateString, BOOL *success, NSError *__autoreleasing *error) {&#10;        return [self.dateFormatter dateFromString:dateString];&#10;    } reverseBlock:^id(NSDate *date, BOOL *success, NSError *__autoreleasing *error) {&#10;        return [self.dateFormatter stringFromDate:date];&#10;    }];&#10;}&#10;$END$" description="mantle date Implementation" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="mcust" value="@property (nonatomic, nullable, strong) $TYPE$ * __nonnull $END$;" description="mantle url" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="cust" value="@property (nonatomic, nullable, strong) $TYPE$ * $SELECTION$;$END$" description="mantle custom" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="mdat" value="@property (nonatomic, nullable, copy, readonly) NSDate * $NAME$ $END$;" description="Mantle date" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+</templateSet>

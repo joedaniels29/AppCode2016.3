@@ -1,0 +1,69 @@
+<templateSet group="ReactiveCocoa">
+  <template name="mpnil" value="MutableProperty(nil)" description="Nill mutable property" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+      <option name="objc" value="false" />
+      <option name="swift.lang.context" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mp" value="MutableProperty&lt;$SELECTION$&gt; = MutableProperty($val$)" description="Nill mutable property" toReformat="false" toShortenFQNames="true">
+    <variable name="val" expression="" defaultValue="nil" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+      <option name="objc" value="false" />
+      <option name="swift.lang.context" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="usi" value="[unowned self] $variables$ in $END$" description="Unowned self in" toReformat="false" toShortenFQNames="true">
+    <variable name="variables" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+      <option name="objc" value="false" />
+      <option name="swift.lang.context" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="wsi" value="[weak self] $variables$ in $END$" description="weak self in" toReformat="false" toShortenFQNames="true">
+    <variable name="variables" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+      <option name="objc" value="false" />
+      <option name="swift.lang.context" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

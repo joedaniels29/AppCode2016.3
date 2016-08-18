@@ -1,0 +1,33 @@
+<templateSet group="Objective-C">
+  <template name="nbl" value="__nullable " description="nullable" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="nnl" value="__nonnull " description="nonnullable" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="_err" value="NSError * error;&#10;$SELECTION$;&#10;if (error) {&#10;    NSLog(@&quot;$ERR$ with error: %@&quot;, error);&#10;}&#10;$END$&#10;" description="Error" toReformat="false" toShortenFQNames="true">
+    <variable name="ERR" expression="" defaultValue="Error" alwaysStopAt="true" />
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="-inj" value="-(void) injected{&#10;    NSLog(&quot;injected!&quot;);&#10;    &#10;}&#10;" description="Inject Code" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="+inj" value="+(void) injected{&#10;    NSLog(&quot;injected!&quot;);&#10;    &#10;}&#10;" description="Inject Code" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="mQ" value="[[NSOperationQueue mainQueue] addOperationWithBlock:^ {&#10;  $SELECTION$&#10;}];" description="ensure execution on main queue" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+</templateSet>

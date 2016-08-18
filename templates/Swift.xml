@@ -1,0 +1,85 @@
+<templateSet group="Swift">
+  <template name="shin" value="  static var instance: $INSTANCE$ {&#10;        return _instance&#10;    }" description="Shared Instance" toReformat="false" toShortenFQNames="true">
+    <variable name="INSTANCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+      <option name="objc" value="false" />
+      <option name="swift.lang.context" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="vain" value="var _instance = $CLASSNAME$()&#10;" description="declare var for shared Instance" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASSNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+      <option name="objc" value="false" />
+      <option name="swift.lang.context" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ssetting" value="var $NAME$: Int = SettingsStore.defaultsValueOrDefault(&quot;$NAME$&quot;, defaultValue: $END$){&#10;        didSet{&#10;            SettingsStore.updateDefault(&quot;$NAME$&quot;, defaultValue: $NAME$)&#10;        }&#10;    }" description="new setting" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+      <option name="objc" value="false" />
+      <option name="swift.lang.context" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="vcinit" value="    required init?(coder aDecoder: NSCoder) {&#10;        super.init(coder: aDecoder)&#10;//        commonInit()&#10;    }&#10;&#10;    override init(nibName nibNameOrNil: String!, bundle nibBundleOrNil: NSBundle!) {&#10;        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)&#10;//        commonInit()&#10;    }&#10;&#10;//    convenience init() {&#10;//        self.init(nibName: nil, bundle: nil)&#10;////        commonInit()&#10;//    }&#10;&#10;//    func commonInit() {&#10;//    }&#10;" description="init view controller" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+      <option name="objc" value="false" />
+      <option name="swift.lang.context" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="vard" value="var d = CompositeDisposable()" description="Disposable" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+      <option name="objc" value="false" />
+      <option name="swift.lang.context" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,2240 @@
+<application>
+  <component name="GemManagerSettings" libraryVersion="4">
+    <sdk2gems sdk="ruby-2.0.0-p648">
+      <box url="file://$USER_HOME$/.gem/ruby/2.0.0/gems" />
+      <box url="file:///Library/Ruby/Gems/2.0.0/gems">
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/security-0.1.3" name="security" version="0.1.3" timestamp="1458792081000" parser_version="15" git="false">
+          <additional_info authors="Mattt Thompson" email="m@mattt.me" homepage="http://mattt.me">
+            <summary>Security</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/retriable-2.1.0" name="retriable" version="2.1.0" timestamp="1464267367000" parser_version="15" git="false">
+          <additional_info authors="Jack Chu" email="jack@jackchu.com" homepage="http://github.com/kamui/retriable">
+            <summary>Retriable is an simple DSL to retry failed code blocks with randomized exponential backoff</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/terminal-notifier-1.6.3" name="terminal-notifier" version="1.6.3" timestamp="1464267358000" parser_version="15" git="false">
+          <additional_info authors="Eloy Duran, Julien Blanchard" email="eloy.de.enige@gmail.com, julien@sideburns.eu" homepage="https://github.com/alloy/terminal-notifier">
+            <summary>Send User Notifications on Mac OS X 10.8 or higher.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/mini_magick-4.5.1" name="mini_magick" version="4.5.1" timestamp="1464267365000" parser_version="15" git="false">
+          <additional_info authors="Corey Johnson, Hampton Catlin, Peter Kieltyka, James Miller, Thiago Fernandes Massa, Janko Marohni\u{107}" email="probablycorey@gmail.com, hcatlin@gmail.com, peter@nulayer.com, bensie@gmail.com, thiagown@gmail.com, janko.marohnic@gmail.com" homepage="https://github.com/minimagick/minimagick">
+            <summary>Manipulate images with minimal use of memory via ImageMagick / GraphicsMagick</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/unf-0.1.4" name="unf" version="0.1.4" timestamp="1464267362000" parser_version="15" git="false">
+          <additional_info authors="Akinori MUSHA" email="knu@idaemons.org" homepage="https://github.com/knu/ruby-unf">
+            <summary>A wrapper library to bring Unicode Normalization Form support to Ruby/JRuby</summary>
+          </additional_info>
+          <dependency name="unf_ext" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/addressable-2.3.8" name="addressable" version="2.3.8" timestamp="1464267358000" parser_version="15" git="false">
+          <additional_info authors="Bob Aman" email="bob@sporkmonger.com" homepage="https://github.com/sporkmonger/addressable">
+            <summary>URI Implementation</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/os-0.9.6" name="os" version="0.9.6" timestamp="1464267368000" parser_version="15" git="false">
+          <additional_info authors="rdp, David McCullars" email="rogerpack2005@gmail.com" homepage="http://github.com/rdp/os">
+            <summary>Simple and easy way to know if you're on windows or not (reliably), as well as how many bits the OS is, etc.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/thread_safe-0.3.5" name="thread_safe" version="0.3.5" timestamp="1453829346000" parser_version="15" git="false">
+          <additional_info authors="Charles Oliver Nutter, thedarkone" email="headius@headius.com, thedarkone2@gmail.com" homepage="https://github.com/ruby-concurrency/thread_safe">
+            <summary>A collection of data structures and utilities to make thread-safe programming in Ruby easier</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/krausefx-shenzhen-0.14.7" name="krausefx-shenzhen" version="0.14.7" timestamp="1464267356000" parser_version="15" git="false">
+          <additional_info authors="Mattt Thompson" email="m@mattt.me" homepage="http://nomad-cli.com">
+            <summary>Shenzhen</summary>
+          </additional_info>
+          <dependency name="terminal-table" git="false" path="false" doRequire="true">
+            <bound version="1.4.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="json" git="false" path="false" doRequire="true">
+            <bound version="1.8" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="commander" git="false" path="false" doRequire="true">
+            <bound version="4.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="net-sftp" git="false" path="false" doRequire="true">
+            <bound version="2.1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rubyzip" git="false" path="false" doRequire="true">
+            <bound version="1.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="security" git="false" path="false" doRequire="true">
+            <bound version="0.1.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="dotenv" git="false" path="false" doRequire="true">
+            <bound version="0.7" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="highline" git="false" path="false" doRequire="true">
+            <bound version="1.7.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="faraday_middleware" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/credentials_manager-0.16.0" name="credentials_manager" version="0.16.0" timestamp="1464267358000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="fastlane@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Password manager used in fastlane.tools</summary>
+          </additional_info>
+          <dependency name="colored" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="security" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="commander" git="false" path="false" doRequire="true">
+            <bound version="4.3.5" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="highline" git="false" path="false" doRequire="true">
+            <bound version="1.7.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/cert-1.4.1" name="cert" version="1.4.1" timestamp="1464267366000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="cert@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Create new iOS code signing certificates</summary>
+          </additional_info>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.29.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.22.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/claide-1.0.0" name="claide" version="1.0.0" timestamp="1464267356000" parser_version="15" git="false">
+          <additional_info authors="Eloy Duran, Fabio Pelosin" email="eloy.de.enige@gmail.com, fabiopelosin@gmail.com" homepage="https://github.com/CocoaPods/CLAide">
+            <summary>A small command-line interface framework.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/produce-1.1.2" name="produce" version="1.1.2" timestamp="1464267366000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="produce@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Create new iOS apps on iTunes Connect and Dev Portal using the command line</summary>
+          </additional_info>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.30.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.16.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/terminal-table-1.4.5" name="terminal-table" version="1.4.5" timestamp="1458792080000" parser_version="15" git="false">
+          <additional_info authors="TJ Holowaychuk, Scott J. Goldman" email="tj@vision-media.ca" homepage="http://github.com/visionmedia/terminal-table">
+            <summary>Simple, feature rich ascii table generation library</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/unf_ext-0.0.7.2" name="unf_ext" version="0.0.7.2" timestamp="1464267362000" parser_version="15" git="false">
+          <additional_info authors="Takeru Ohta, Akinori MUSHA" email="knu@idaemons.org" homepage="https://github.com/knu/ruby-unf_ext">
+            <summary>Unicode Normalization Form support library for CRuby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/babosa-1.0.2" name="babosa" version="1.0.2" timestamp="1458792079000" parser_version="15" git="false">
+          <additional_info authors="Norman Clarke" email="norman@njclarke.com" homepage="http://github.com/norman/babosa">
+            <summary>A library for creating slugs.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/xcode-install-1.4.0" name="xcode-install" version="1.4.0" timestamp="1464267364000" parser_version="15" git="false">
+          <additional_info authors="Boris Bu\u{308}gling" email="boris@icculus.org" homepage="https://github.com/neonichu/xcode-install">
+            <summary>Xcode installation manager.</summary>
+          </additional_info>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.25.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="claide" git="false" path="false" doRequire="true">
+            <bound version="0.9.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.1.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/activesupport-4.2.5.1" name="activesupport" version="4.2.5.1" timestamp="1453829347000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.</summary>
+          </additional_info>
+          <dependency name="json" git="false" path="false" doRequire="true">
+            <bound version="1.7" bound="LATEST_IN_BRANCH" />
+            <bound version="1.7.7" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="thread_safe" git="false" path="false" doRequire="true">
+            <bound version="0.3" bound="LATEST_IN_BRANCH" />
+            <bound version="0.3.4" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="i18n" git="false" path="false" doRequire="true">
+            <bound version="0.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="tzinfo" git="false" path="false" doRequire="true">
+            <bound version="1.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="minitest" git="false" path="false" doRequire="true">
+            <bound version="5.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/supply-0.7.0" name="supply" version="0.7.0" timestamp="1464267371000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="supply@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Command line tool for updating Android apps and their metadata on the Google Play Store</summary>
+          </additional_info>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.15.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.43.4" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="google-api-client" git="false" path="false" doRequire="true">
+            <bound version="0.9.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/thor-0.19.1" name="thor" version="0.19.1" timestamp="1464267369000" parser_version="15" git="false">
+          <additional_info authors="Yehuda Katz, Jos\u{e9} Valim" email="ruby-thor@googlegroups.com" homepage="http://whatisthor.com/">
+            <summary>Thor is a toolkit for building powerful command-line interfaces.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/match-0.6.1" name="match" version="0.6.1" timestamp="1464267371000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="match@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Easily sync your certificates and profiles across your team using git</summary>
+          </additional_info>
+          <dependency name="sigh" git="false" path="false" doRequire="true">
+            <bound version="1.2.2" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="security" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.13.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.39.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.24.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="cert" git="false" path="false" doRequire="true">
+            <bound version="1.2.8" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/minitest-5.8.4" name="minitest" version="5.8.4" timestamp="1453829346000" parser_version="15" git="false">
+          <additional_info authors="Ryan Davis" email="ryand-ruby@zenspider.com" homepage="https://github.com/seattlerb/minitest">
+            <summary>minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/faraday_middleware-0.10.0" name="faraday_middleware" version="0.10.0" timestamp="1458792081000" parser_version="15" git="false">
+          <additional_info authors="Erik Michaels-Ober, Wynn Netherland" email="sferik@gmail.com, wynn.netherland@gmail.com" homepage="https://github.com/lostisland/faraday_middleware">
+            <summary>Various middleware for Faraday</summary>
+          </additional_info>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.10" bound="LESS" />
+            <bound version="0.7.4" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/plist-3.1.0" name="plist" version="3.1.0" timestamp="1464267356000" parser_version="15" git="false">
+          <additional_info authors="Ben Bleything and Patrick May" email="N/A" homepage="http://plist.rubyforge.org">
+            <summary>All-purpose Property List manipulation library.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/net-ssh-3.1.1" name="net-ssh" version="3.1.1" timestamp="1464267355000" parser_version="15" git="false">
+          <additional_info authors="Jamis Buck, Delano Mandelbaum, Mikl\u{f3}s Fazekas" email="net-ssh@solutious.com" homepage="https://github.com/net-ssh/net-ssh">
+            <summary>Net::SSH: a pure-Ruby implementation of the SSH2 client protocol.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/rouge-1.10.1" name="rouge" version="1.10.1" timestamp="1464267356000" parser_version="15" git="false">
+          <additional_info authors="Jeanine Adkisson" email="jneen@jneen.net" homepage="http://rouge.jneen.net/">
+            <summary>A pure-ruby colorizer based on pygments</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/signet-0.7.2" name="signet" version="0.7.2" timestamp="1464267369000" parser_version="15" git="false">
+          <additional_info authors="Bob Aman, Steven Bazyl" email="sbazyl@google.com" homepage="https://github.com/google/signet/">
+            <summary>Signet is an OAuth 1.0 / OAuth 2.0 implementation.</summary>
+          </additional_info>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.10" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="jwt" git="false" path="false" doRequire="true">
+            <bound version="1.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="addressable" git="false" path="false" doRequire="true">
+            <bound version="2.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/ios-deploy-1.5.0" name="ios-deploy" version="1.5.0" timestamp="1465223062000" parser_version="15" git="false">
+          <additional_info authors="Giovanni Lodi" email="giovanni.lodi42@gmail.com" homepage="https://github.com/mokagio/ios-deploy-gem">
+            <summary>Mirror of the node module ios-deploy</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/i18n-0.7.0" name="i18n" version="0.7.0" timestamp="1453829346000" parser_version="15" git="false">
+          <additional_info authors="Sven Fuchs, Joshua Harvey, Matt Aimonetti, Stephan Soller, Saimon Moore" email="rails-i18n@googlegroups.com" homepage="http://github.com/svenfuchs/i18n">
+            <summary>New wave Internationalization support for Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/rubyzip-1.1.7" name="rubyzip" version="1.1.7" timestamp="1458792080000" parser_version="15" git="false">
+          <additional_info authors="Alexander Simonov" email="alex@simonov.me" homepage="http://github.com/rubyzip/rubyzip">
+            <summary>rubyzip is a ruby module for reading and writing zip files</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/googleauth-0.5.1" name="googleauth" version="0.5.1" timestamp="1464267369000" parser_version="15" git="false">
+          <additional_info authors="Tim Emiola" email="temiola@google.com" homepage="https://github.com/google/google-auth-library-ruby">
+            <summary>Google Auth Library for Ruby</summary>
+          </additional_info>
+          <dependency name="jwt" git="false" path="false" doRequire="true">
+            <bound version="1.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="memoist" git="false" path="false" doRequire="true">
+            <bound version="0.12" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="os" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.11" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="logging" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="signet" git="false" path="false" doRequire="true">
+            <bound version="0.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/screengrab-0.3.2" name="screengrab" version="0.3.2" timestamp="1464267371000" parser_version="15" git="false">
+          <additional_info authors="Andrea Falcone, Michael Furtak" email="screengrab@fabric.io" homepage="https://fastlane.tools">
+            <summary>Automated localized screenshots of your Android app on every device</summary>
+          </additional_info>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.38.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/net-sftp-2.1.2" name="net-sftp" version="2.1.2" timestamp="1464267355000" parser_version="15" git="false">
+          <additional_info authors="Jamis Buck, Delano Mandelbaum" email="net-ssh@solutious.com" homepage="https://github.com/net-ssh/net-sftp">
+            <summary>A pure Ruby implementation of the SFTP client protocol</summary>
+          </additional_info>
+          <dependency name="net-ssh" git="false" path="false" doRequire="true">
+            <bound version="2.6.5" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/uber-0.0.15" name="uber" version="0.0.15" timestamp="1464267367000" parser_version="15" git="false">
+          <additional_info authors="Nick Sutterer" email="apotonick@gmail.com" homepage="https://github.com/apotonick/uber">
+            <summary>Gem-authoring tools like class method inheritance in modules, dynamic options and more.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/sentry-raven-0.15.6" name="sentry-raven" version="0.15.6" timestamp="1458792080000" parser_version="15" git="false">
+          <additional_info authors="Sentry Team" email="getsentry@googlegroups.com" homepage="https://github.com/getsentry/raven-ruby">
+            <summary>A gem that provides a client interface for the Sentry error logger</summary>
+          </additional_info>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.7.6" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/multi_xml-0.5.5" name="multi_xml" version="0.5.5" timestamp="1458792081000" parser_version="15" git="false">
+          <additional_info authors="Erik Michaels-Ober" email="sferik@gmail.com" homepage="https://github.com/sferik/multi_xml">
+            <summary>A generic swappable back-end for XML parsing</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/spaceship-0.27.1" name="spaceship" version="0.27.1" timestamp="1464267364000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause, Stefan Natchev" email="spaceship@krausefx.com, stefan@natchev.com" homepage="https://fastlane.tools">
+            <summary>Because you would rather spend your time building stuff than fighting provisioning</summary>
+          </additional_info>
+          <dependency name="colored" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="multi_xml" git="false" path="false" doRequire="true">
+            <bound version="0.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="faraday-cookie_jar" git="false" path="false" doRequire="true">
+            <bound version="0.0.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="fastimage" git="false" path="false" doRequire="true">
+            <bound version="1.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.9.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="faraday_middleware" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/xcodeproj-1.0.0" name="xcodeproj" version="1.0.0" timestamp="1464267356000" parser_version="15" git="false">
+          <additional_info authors="Eloy Duran" email="eloy.de.enige@gmail.com" homepage="https://github.com/cocoapods/xcodeproj">
+            <summary>Create and modify Xcode projects from Ruby.</summary>
+          </additional_info>
+          <dependency name="claide" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="colored" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/memoist-0.14.0" name="memoist" version="0.14.0" timestamp="1464267368000" parser_version="15" git="false">
+          <additional_info authors="Joshua Peek, Tarmo T\u{e4}nav, Jeremy Kemper, Eugene Pimenov, Xavier Noria, Niels Ganser, Carl Lerche &amp; Yehuda Katz, jeem, Jay Pignata, Damien Mathieu, Jos\u{e9} Valim, Matthew Rudy Jacobs" email="josh@joshpeek.com, tarmo@itech.ee, jeremy@bitsweat.net, libc@mac.com, fxn@hashref.com, niels@herimedia.co, wycats@gmail.com, jeem@hughesorama.com, john.pignata@gmail.com, 42@dmathieu.com, jose.valim@gmail.com, matthewrudyjacobs@gmail.com" homepage="https://github.com/matthewrudy/memoist">
+            <summary>memoize methods invocation</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/faraday-cookie_jar-0.0.6" name="faraday-cookie_jar" version="0.0.6" timestamp="1464267363000" parser_version="15" git="false">
+          <additional_info authors="Tatsuhiko Miyagawa" email="miyagawa@bulknews.net" homepage="https://github.com/miyagawa/faraday-cookie_jar">
+            <summary>Manages client-side cookie jar for Faraday HTTP client</summary>
+          </additional_info>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.7.4" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="http-cookie" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/representable-2.3.0" name="representable" version="2.3.0" timestamp="1464267367000" parser_version="15" git="false">
+          <additional_info authors="Nick Sutterer" email="apotonick@gmail.com" homepage="https://github.com/apotonick/representable/">
+            <summary>Renders and parses JSON/XML/YAML documents from and to Ruby objects. Includes plain properties, collections, nesting, coercion and more.</summary>
+          </additional_info>
+          <dependency name="uber" git="false" path="false" doRequire="true">
+            <bound version="0.0.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/httpclient-2.8.0" name="httpclient" version="2.8.0" timestamp="1464267369000" parser_version="15" git="false">
+          <additional_info authors="Hiroshi Nakamura" email="nahi@ruby-lang.org" homepage="https://github.com/nahi/httpclient">
+            <summary>gives something like the functionality of libwww-perl (LWP) in Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/multipart-post-2.0.0" name="multipart-post" version="2.0.0" timestamp="1458792080000" parser_version="15" git="false">
+          <additional_info authors="Nick Sieger" email="nick@nicksieger.com" homepage="https://github.com/nicksieger/multipart-post">
+            <summary>A multipart form post accessory for Net::HTTP.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/slack-notifier-1.5.1" name="slack-notifier" version="1.5.1" timestamp="1464267356000" parser_version="15" git="false">
+          <additional_info authors="Steven Sloan" email="stevenosloan@gmail.com" homepage="http://github.com/stevenosloan/slack-notifier">
+            <summary>A slim ruby wrapper for posting to slack webhooks</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/rb-scpt-1.0.1" name="rb-scpt" version="1.0.1" timestamp="1456253511000" parser_version="15" git="false">
+          <additional_info authors="hhas, Brendan Thompson" email="brendan@btsystems.com.au" homepage="https://github.com/BrendanThompson/rb-scpt">
+            <summary>This is a fork of the original rb-appscript. Ruby AppleScript (rb-scpt) is a high-level, user-friendly Apple event bridge that allows you to control scriptable Mac OS X applications using ordinary Ruby scripts.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/tzinfo-1.2.2" name="tzinfo" version="1.2.2" timestamp="1453829346000" parser_version="15" git="false">
+          <additional_info authors="Philip Ross" email="phil.ross@gmail.com" homepage="http://tzinfo.github.io">
+            <summary>Daylight savings aware timezone library</summary>
+          </additional_info>
+          <dependency name="thread_safe" git="false" path="false" doRequire="true">
+            <bound version="0.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/xcpretty-travis-formatter-0.0.4" name="xcpretty-travis-formatter" version="0.0.4" timestamp="1464267371000" parser_version="15" git="false">
+          <additional_info authors="Delisa Mason" email="iskanamagus@gmail.com" homepage="https://github.com/kattrali/xcpretty-travis-formatter">
+            <summary>xcpretty custom formatter for TravisCI</summary>
+          </additional_info>
+          <dependency name="xcpretty" git="false" path="false" doRequire="true">
+            <bound version="0.0.7" bound="GREATER_OR_EQUAL" />
+            <bound version="0.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/fastimage-1.6.8" name="fastimage" version="1.6.8" timestamp="1464267364000" parser_version="15" git="false">
+          <additional_info authors="Stephen Sykes" email="sdsykes@gmail.com" homepage="http://github.com/sdsykes/fastimage">
+            <summary>FastImage - Image info fast</summary>
+          </additional_info>
+          <dependency name="addressable" git="false" path="false" doRequire="true">
+            <bound version="2.3" bound="LATEST_IN_BRANCH" />
+            <bound version="2.3.5" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/jwt-1.5.4" name="jwt" version="1.5.4" timestamp="1464267368000" parser_version="15" git="false">
+          <additional_info authors="Jeff Lindsay, Tim Rudat" email="timrudat@gmail.com" homepage="http://github.com/jwt/ruby-jwt">
+            <summary>JSON Web Token implementation in Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/dotenv-2.1.1" name="dotenv" version="2.1.1" timestamp="1464267355000" parser_version="15" git="false">
+          <additional_info authors="Brandon Keepers" email="brandon@opensoul.org" homepage="https://github.com/bkeepers/dotenv">
+            <summary>Loads environment variables from `.env`.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/scan-0.7.1" name="scan" version="0.7.1" timestamp="1464267371000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="scan@krausefx.com" homepage="https://fastlane.tools">
+            <summary>The easiest way to run tests of your iOS and Mac app</summary>
+          </additional_info>
+          <dependency name="slack-notifier" git="false" path="false" doRequire="true">
+            <bound version="1.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="xcpretty-travis-formatter" git="false" path="false" doRequire="true">
+            <bound version="0.0.3" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="terminal-table" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.36.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="xcpretty" git="false" path="false" doRequire="true">
+            <bound version="0.2.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/frameit-2.6.2" name="frameit" version="2.6.2" timestamp="1464267365000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="frameit@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Quickly put your screenshots into the right device frames</summary>
+          </additional_info>
+          <dependency name="mini_magick" git="false" path="false" doRequire="true">
+            <bound version="4.5.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.36.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="deliver" git="false" path="false" doRequire="true">
+            <bound version="0.3" bound="GREATER" />
+          </dependency>
+          <dependency name="fastimage" git="false" path="false" doRequire="true">
+            <bound version="1.6.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/credentials_manager-0.15.0" name="credentials_manager" version="0.15.0" timestamp="1458792081000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="fastlane@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Password manager used in fastlane.tools</summary>
+          </additional_info>
+          <dependency name="colored" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="security" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="commander" git="false" path="false" doRequire="true">
+            <bound version="4.3.5" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="highline" git="false" path="false" doRequire="true">
+            <bound version="1.7.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/http-cookie-1.0.2" name="http-cookie" version="1.0.2" timestamp="1464267362000" parser_version="15" git="false">
+          <additional_info authors="Akinori MUSHA, Aaron Patterson, Eric Hodel, Mike Dalessio" email="knu@idaemons.org, aaronp@rubyforge.org, drbrain@segment7.net, mike.dalessio@gmail.com" homepage="https://github.com/sparklemotion/http-cookie">
+            <summary>A Ruby library to handle HTTP Cookies based on RFC 6265</summary>
+          </additional_info>
+          <dependency name="domain_name" git="false" path="false" doRequire="true">
+            <bound version="0.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/fastlane_core-0.39.0" name="fastlane_core" version="0.39.0" timestamp="1458792081000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="fastlanecore@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Contains all shared code/dependencies of the fastlane.tools</summary>
+          </additional_info>
+          <dependency name="terminal-table" git="false" path="false" doRequire="true">
+            <bound version="1.4.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="sentry-raven" git="false" path="false" doRequire="true">
+            <bound version="0.15" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="colored" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="commander" git="false" path="false" doRequire="true">
+            <bound version="4.3.5" bound="EQUAL" />
+          </dependency>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.11.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="json" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="babosa" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rubyzip" git="false" path="false" doRequire="true">
+            <bound version="1.1.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="excon" git="false" path="false" doRequire="true">
+            <bound version="0.45.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="highline" git="false" path="false" doRequire="true">
+            <bound version="1.7.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/domain_name-0.5.20160310" name="domain_name" version="0.5.20160310" timestamp="1464267362000" parser_version="15" git="false">
+          <additional_info authors="Akinori MUSHA" email="knu@idaemons.org" homepage="https://github.com/knu/ruby-domain_name">
+            <summary>Domain Name manipulation library for Ruby</summary>
+          </additional_info>
+          <dependency name="unf" git="false" path="false" doRequire="true">
+            <bound version="0.0.5" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/faraday-0.9.2" name="faraday" version="0.9.2" timestamp="1458792080000" parser_version="15" git="false">
+          <additional_info authors="Rick Olson" email="technoweenie@gmail.com" homepage="https://github.com/lostisland/faraday">
+            <summary>HTTP/REST API client library.</summary>
+          </additional_info>
+          <dependency name="multipart-post" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="GREATER_OR_EQUAL" />
+            <bound version="3" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/mime-types-3.1" name="mime-types" version="3.1" timestamp="1464267367000" parser_version="15" git="false">
+          <additional_info authors="Austin Ziegler" email="halostatue@gmail.com" homepage="https://github.com/mime-types/ruby-mime-types/">
+            <summary>The mime-types library provides a library and registry for information about MIME content type definitions</summary>
+          </additional_info>
+          <dependency name="mime-types-data" git="false" path="false" doRequire="true">
+            <bound version="3.2015" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/logging-2.1.0" name="logging" version="2.1.0" timestamp="1464267368000" parser_version="15" git="false">
+          <additional_info authors="Tim Pease" email="tim.pease@gmail.com" homepage="http://rubygems.org/gems/logging">
+            <summary>A flexible and extendable logging library for Ruby</summary>
+          </additional_info>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.10" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="little-plugger" git="false" path="false" doRequire="true">
+            <bound version="1.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/pilot-1.7.0" name="pilot" version="1.7.0" timestamp="1464267367000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="pilot@krausefx.com" homepage="https://fastlane.tools">
+            <summary>The best way to manage your TestFlight testers and builds from your terminal</summary>
+          </additional_info>
+          <dependency name="terminal-table" git="false" path="false" doRequire="true">
+            <bound version="1.4.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.41.2" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.27.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.3.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/mime-types-data-3.2016.0521" name="mime-types-data" version="3.2016.0521" timestamp="1464267367000" parser_version="15" git="false">
+          <additional_info authors="Austin Ziegler" email="halostatue@gmail.com" homepage="https://github.com/mime-types/mime-types-data/">
+            <summary>mime-types-data provides a registry for information about MIME media type definitions</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/plist-3.2.0" name="plist" version="3.2.0" timestamp="1454610868000" parser_version="15" git="false">
+          <additional_info authors="Ben Bleything and Patrick Way" email="N/A" homepage="http://plist.rubyforge.org">
+            <summary>All-purpose Property List manipulation library.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/snapshot-1.12.3" name="snapshot" version="1.12.3" timestamp="1464267365000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="snapshot@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Automate taking localized screenshots of your iOS app on every device</summary>
+          </additional_info>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.36.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="xcpretty" git="false" path="false" doRequire="true">
+            <bound version="0.2.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="fastimage" git="false" path="false" doRequire="true">
+            <bound version="1.6.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/hurley-0.2" name="hurley" version="0.2" timestamp="1464267368000" parser_version="15" git="false">
+          <additional_info authors="Rick Olson, Wynn Netherland, Ben Maraney, Kevin Kirsche" email="technoweenie@gmail.com, kev.kirsche@gmail.com" homepage="https://github.com/lostisland/hurley">
+            <summary>HTTP client wrapper</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/multi_json-1.11.2" name="multi_json" version="1.11.2" timestamp="1458792078000" parser_version="15" git="false">
+          <additional_info authors="Michael Bleigh, Josh Kalderimis, Erik Michaels-Ober, Pavel Pravosud" email="michael@intridea.com, josh.kalderimis@gmail.com, sferik@gmail.com, pavel@pravosud.com" homepage="http://github.com/intridea/multi_json">
+            <summary>A common interface to multiple JSON libraries.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/gym-1.6.3" name="gym" version="1.6.3" timestamp="1464267366000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="gym@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Building your iOS apps has never been easier</summary>
+          </additional_info>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.43.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="terminal-table" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="xcpretty" git="false" path="false" doRequire="true">
+            <bound version="0.2.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="rubyzip" git="false" path="false" doRequire="true">
+            <bound version="1.1.7" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/commander-4.3.5" name="commander" version="4.3.5" timestamp="1458792079000" parser_version="15" git="false">
+          <additional_info authors="TJ Holowaychuk, Gabriel Gilder" email="gabriel@gabrielgilder.com" homepage="https://github.com/commander-rb/commander">
+            <summary>The complete solution for Ruby command-line executables</summary>
+          </additional_info>
+          <dependency name="highline" git="false" path="false" doRequire="true">
+            <bound version="1.7.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/google-api-client-0.9.8" name="google-api-client" version="0.9.8" timestamp="1464267370000" parser_version="15" git="false">
+          <additional_info authors="Steven Bazyl, Tim Emiola, Sergio Gomes, Bob Aman" email="sbazyl@google.com" homepage="https://github.com/google/google-api-ruby-client">
+            <summary>Client for accessing Google APIs</summary>
+          </additional_info>
+          <dependency name="googleauth" git="false" path="false" doRequire="true">
+            <bound version="0.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="thor" git="false" path="false" doRequire="true">
+            <bound version="0.19" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="retriable" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="httpclient" git="false" path="false" doRequire="true">
+            <bound version="2.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="mime-types" git="false" path="false" doRequire="true">
+            <bound version="1.6" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="memoist" git="false" path="false" doRequire="true">
+            <bound version="0.11" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="hurley" git="false" path="false" doRequire="true">
+            <bound version="0.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="representable" git="false" path="false" doRequire="true">
+            <bound version="2.3.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="addressable" git="false" path="false" doRequire="true">
+            <bound version="2.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/colored-1.2" name="colored" version="1.2" timestamp="1458792079000" parser_version="15" git="false">
+          <additional_info authors="Chris Wanstrath" email="chris@ozmm.org" homepage="http://github.com/defunkt/colored">
+            <summary>Add some color to your life.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/ffi-1.9.10" name="ffi" version="1.9.10" timestamp="1453829376000" parser_version="15" git="false">
+          <additional_info authors="Wayne Meissner" email="wmeissner@gmail.com" homepage="http://wiki.github.com/ffi/ffi">
+            <summary>Ruby FFI</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/highline-1.7.8" name="highline" version="1.7.8" timestamp="1458792079000" parser_version="15" git="false">
+          <additional_info authors="James Edward Gray II" email="james@graysoftinc.com" homepage="https://github.com/JEG2/highline">
+            <summary>HighLine is a high-level command-line IO library.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/fastlane-1.91.0" name="fastlane" version="1.91.0" timestamp="1464267372000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="fastlane@krausefx.com" homepage="https://fastlane.tools">
+            <summary>The easiest way to automate building and releasing your iOS and Android apps</summary>
+          </additional_info>
+          <dependency name="slack-notifier" git="false" path="false" doRequire="true">
+            <bound version="1.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="scan" git="false" path="false" doRequire="true">
+            <bound version="0.7.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="gym" git="false" path="false" doRequire="true">
+            <bound version="1.6.3" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="multipart-post" git="false" path="false" doRequire="true">
+            <bound version="2.0.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="pem" git="false" path="false" doRequire="true">
+            <bound version="1.3.1" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.16.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="produce" git="false" path="false" doRequire="true">
+            <bound version="1.1.2" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="terminal-table" git="false" path="false" doRequire="true">
+            <bound version="1.4.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="xcode-install" git="false" path="false" doRequire="true">
+            <bound version="1.4.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="xcpretty" git="false" path="false" doRequire="true">
+            <bound version="0.2.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="xcodeproj" git="false" path="false" doRequire="true">
+            <bound version="0.20" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.44.2" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="addressable" git="false" path="false" doRequire="true">
+            <bound version="2.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="deliver" git="false" path="false" doRequire="true">
+            <bound version="1.11.3" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="cert" git="false" path="false" doRequire="true">
+            <bound version="1.4.1" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="sigh" git="false" path="false" doRequire="true">
+            <bound version="1.8.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="match" git="false" path="false" doRequire="true">
+            <bound version="0.6.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="krausefx-shenzhen" git="false" path="false" doRequire="true">
+            <bound version="0.14.7" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="screengrab" git="false" path="false" doRequire="true">
+            <bound version="0.3.2" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="frameit" git="false" path="false" doRequire="true">
+            <bound version="2.6.2" bound="GREATER_OR_EQUAL" />
+            <bound version="3.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="supply" git="false" path="false" doRequire="true">
+            <bound version="0.7.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="pilot" git="false" path="false" doRequire="true">
+            <bound version="1.7.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.27.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="snapshot" git="false" path="false" doRequire="true">
+            <bound version="1.12.1" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="terminal-notifier" git="false" path="false" doRequire="true">
+            <bound version="1.6.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/bundler-1.11.2" name="bundler" version="1.11.2" timestamp="1454612034000" parser_version="15" git="false">
+          <additional_info authors="Andr\u{e9} Arko, Terence Lee, Carl Lerche, Yehuda Katz" email="andre.arko+terence.lee@gmail.com" homepage="http://bundler.io">
+            <summary>The best way to manage your application's dependencies</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/fastlane_core-0.44.2" name="fastlane_core" version="0.44.2" timestamp="1464267365000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="fastlanecore@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Contains all shared code/dependencies of the fastlane.tools</summary>
+          </additional_info>
+          <dependency name="terminal-table" git="false" path="false" doRequire="true">
+            <bound version="1.4.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="colored" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="commander" git="false" path="false" doRequire="true">
+            <bound version="4.3.5" bound="EQUAL" />
+          </dependency>
+          <dependency name="json" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="babosa" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rubyzip" git="false" path="false" doRequire="true">
+            <bound version="1.1.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.16.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="excon" git="false" path="false" doRequire="true">
+            <bound version="0.45.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="highline" git="false" path="false" doRequire="true">
+            <bound version="1.7.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/sigh-1.8.0" name="sigh" version="1.8.0" timestamp="1464267366000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="sigh@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Because you would rather spend your time building stuff than fighting provisioning</summary>
+          </additional_info>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.36.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.22.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/little-plugger-1.1.4" name="little-plugger" version="1.1.4" timestamp="1464267368000" parser_version="15" git="false">
+          <additional_info authors="Tim Pease" email="tim.pease@gmail.com" homepage="http://gemcutter.org/gems/little-plugger">
+            <summary>LittlePlugger is a module that provides Gem based plugin management.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/json-1.8.3" name="json" version="1.8.3" timestamp="1464267354000" parser_version="15" git="false">
+          <additional_info authors="Florian Frank" email="flori@ping.de" homepage="http://flori.github.com/json">
+            <summary>JSON Implementation for Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/excon-0.45.4" name="excon" version="0.45.4" timestamp="1458792080000" parser_version="15" git="false">
+          <additional_info authors="dpiddy (Dan Peterson), geemus (Wesley Beary), nextmat (Matt Sanders)" email="geemus@gmail.com" homepage="https://github.com/excon/excon">
+            <summary>speed, persistence, http(s)</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/cocoa-0.1.6" name="cocoa" version="0.1.6" timestamp="1453829378000" parser_version="15" git="false">
+          <additional_info authors="Patrick Hanevold" email="patrick.hanevold@gmail.com" homepage="http://github.com/patrickhno/cocoa">
+            <summary>Ruby bindings for Cocoa</summary>
+          </additional_info>
+          <dependency name="ffi" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/pem-1.3.1" name="pem" version="1.3.1" timestamp="1464267366000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="pem@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Automatically generate and renew your push notification profiles</summary>
+          </additional_info>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.26.2" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.43.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/deliver-1.11.3" name="deliver" version="1.11.3" timestamp="1464267365000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="deliver@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Upload screenshots, metadata and your app to the App Store using a single command</summary>
+          </additional_info>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.26.2" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.43.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="fastimage" git="false" path="false" doRequire="true">
+            <bound version="1.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.16.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/2.0.0/gems/xcpretty-0.2.2" name="xcpretty" version="0.2.2" timestamp="1464267357000" parser_version="15" git="false">
+          <additional_info authors="Marin Usalj, Delisa Mason" email="marin2211@gmail.com, iskanamagus@gmail.com" homepage="https://github.com/supermarin/xcpretty">
+            <summary>xcodebuild formatter done right</summary>
+          </additional_info>
+          <dependency name="rouge" git="false" path="false" doRequire="true">
+            <bound version="1.8" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+      </box>
+      <box url="file:///System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/gems/2.0.0/gems">
+        <gem url="file:///System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/gems/2.0.0/gems/nokogiri-1.5.6" name="nokogiri" version="1.5.6" timestamp="1440289498000" parser_version="15" git="false">
+          <additional_info authors="Aaron Patterson, Mike Dalessio, Yoko Harada, Tim Elliott" email="aaronp@rubyforge.org, mike.dalessio@gmail.com, yokolet@gmail.com, tle@holymonkey.com" homepage="http://nokogiri.org">
+            <summary>Nokogiri (\u{e9}\u{8b}\u{b8}) is an HTML, XML, SAX, and Reader parser</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/gems/2.0.0/gems/CFPropertyList-2.2.8" name="CFPropertyList" version="2.2.8" timestamp="1440289469000" parser_version="15" git="false">
+          <additional_info authors="Christian Kruse" email="cjk@wwwtech.de" homepage="http://github.com/ckruse/CFPropertyList">
+            <summary>Read, write and manipulate both binary and XML property lists as defined by apple</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/gems/2.0.0/gems/sqlite3-1.3.7" name="sqlite3" version="1.3.7" timestamp="1440289507000" parser_version="15" git="false">
+          <additional_info authors="Jamis Buck, Luis Lavena, Aaron Patterson" email="jamis@37signals.com, luislavena@gmail.com, aaron@tenderlovemaking.com" homepage="http://github.com/luislavena/sqlite3-ruby">
+            <summary>This module allows Ruby programs to interface with the SQLite3 database engine (http://www.sqlite.org)</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/gems/2.0.0/gems/libxml-ruby-2.6.0" name="libxml-ruby" version="2.6.0" timestamp="1440289485000" parser_version="15" git="false">
+          <additional_info authors="Ross Bamform, Wai-Sun Chia, Sean Chittenden, Dan Janwoski, Anurag Priyam, Charlie Savage, Ryan Johnson" email="N/A" homepage="http://xml4r.github.com/libxml-ruby">
+            <summary>Ruby Bindings for LibXML2</summary>
+          </additional_info>
+        </gem>
+      </box>
+      <box url="file://$USER_HOME$/.gem/ruby/2.0.0/bundler/gems" />
+      <box url="file:///Library/Ruby/Gems/2.0.0/bundler/gems" />
+      <box url="file:///System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/gems/2.0.0/bundler/gems" />
+    </sdk2gems>
+    <sdk2gems sdk="ruby-2.3.1-p112">
+      <box url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/bundler/gems" />
+      <box url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems">
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/sigh-1.9.0" name="sigh" version="1.9.0" timestamp="1470153985000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="sigh@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Because you would rather spend your time building stuff than fighting provisioning</summary>
+          </additional_info>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.29.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.36.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/rubocop-0.42.0" name="rubocop" version="0.42.0" timestamp="1470150783000" parser_version="15" git="false">
+          <additional_info authors="Bozhidar Batsov, Jonas Arvidsson, Yuji Nakayama" email="rubocop@googlegroups.com" homepage="http://github.com/bbatsov/rubocop">
+            <summary>Automatic Ruby code style checking tool.</summary>
+          </additional_info>
+          <dependency name="parser" git="false" path="false" doRequire="true">
+            <bound version="2.3.1.1" bound="GREATER_OR_EQUAL" />
+            <bound version="3.0" bound="LESS" />
+          </dependency>
+          <dependency name="unicode-display_width" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+            <bound version="1.0.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="powerpack" git="false" path="false" doRequire="true">
+            <bound version="0.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rainbow" git="false" path="false" doRequire="true">
+            <bound version="1.99.1" bound="GREATER_OR_EQUAL" />
+            <bound version="3.0" bound="LESS" />
+          </dependency>
+          <dependency name="ruby-progressbar" git="false" path="false" doRequire="true">
+            <bound version="1.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/produce-1.1.3" name="produce" version="1.1.3" timestamp="1470153985000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="produce@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Create new iOS apps on iTunes Connect and Dev Portal using the command line</summary>
+          </additional_info>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.29.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.30.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/tmuxinator-0.8.1" name="tmuxinator" version="0.8.1" timestamp="1470340961000" parser_version="15" git="false">
+          <additional_info authors="Allen Bargi, Christopher Chow" email="allen.bargi@gmail.com, chris@chowie.net" homepage="https://github.com/tmuxinator/tmuxinator">
+            <summary>Create and manage complex tmux sessions easily.</summary>
+          </additional_info>
+          <dependency name="erubis" git="false" path="false" doRequire="true">
+            <bound version="2.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="thor" git="false" path="false" doRequire="true">
+            <bound version="0.15.0" bound="GREATER_OR_EQUAL" />
+            <bound version="0.19" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/cocoapods-downloader-1.0.0" name="cocoapods-downloader" version="1.0.0" timestamp="1465333808000" parser_version="15" git="false">
+          <additional_info authors="Eloy Duran, Fabio Pelosin" email="eloy.de.enige@gmail.com, fabiopelosin@gmail.com" homepage="https://github.com/CocoaPods/Downloader">
+            <summary>A small library for downloading files from remotes in a folder.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/net-sftp-2.1.2" name="net-sftp" version="2.1.2" timestamp="1470153968000" parser_version="15" git="false">
+          <additional_info authors="Jamis Buck, Delano Mandelbaum" email="net-ssh@solutious.com" homepage="https://github.com/net-ssh/net-sftp">
+            <summary>A pure Ruby implementation of the SFTP client protocol</summary>
+          </additional_info>
+          <dependency name="net-ssh" git="false" path="false" doRequire="true">
+            <bound version="2.6.5" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/netrc-0.7.8" name="netrc" version="0.7.8" timestamp="1465333808000" parser_version="15" git="false">
+          <additional_info authors="Keith Rarick, geemus (Wesley Beary)" email="geemus@gmail.com" homepage="https://github.com/geemus/netrc">
+            <summary>Library to read and write netrc files.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/frameit-2.7.0" name="frameit" version="2.7.0" timestamp="1470153984000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="frameit@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Quickly put your screenshots into the right device frames</summary>
+          </additional_info>
+          <dependency name="mini_magick" git="false" path="false" doRequire="true">
+            <bound version="4.5.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.36.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="deliver" git="false" path="false" doRequire="true">
+            <bound version="0.3" bound="GREATER" />
+          </dependency>
+          <dependency name="fastimage" git="false" path="false" doRequire="true">
+            <bound version="1.6.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/highline-1.7.8" name="highline" version="1.7.8" timestamp="1470153966000" parser_version="15" git="false">
+          <additional_info authors="James Edward Gray II" email="james@graysoftinc.com" homepage="https://github.com/JEG2/highline">
+            <summary>HighLine is a high-level command-line IO library.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/xcpretty-0.2.2" name="xcpretty" version="0.2.2" timestamp="1470153970000" parser_version="15" git="false">
+          <additional_info authors="Marin Usalj, Delisa Mason" email="marin2211@gmail.com, iskanamagus@gmail.com" homepage="https://github.com/supermarin/xcpretty">
+            <summary>xcodebuild formatter done right</summary>
+          </additional_info>
+          <dependency name="rouge" git="false" path="false" doRequire="true">
+            <bound version="1.8" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/credentials_manager-0.16.0" name="credentials_manager" version="0.16.0" timestamp="1470153971000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="fastlane@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Password manager used in fastlane.tools</summary>
+          </additional_info>
+          <dependency name="colored" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="commander" git="false" path="false" doRequire="true">
+            <bound version="4.3.5" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="security" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="highline" git="false" path="false" doRequire="true">
+            <bound version="1.7.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/colored-1.2" name="colored" version="1.2" timestamp="1465333806000" parser_version="15" git="false">
+          <additional_info authors="Chris Wanstrath" email="chris@ozmm.org" homepage="http://github.com/defunkt/colored">
+            <summary>Add some color to your life.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/cocoapods-core-1.0.1" name="cocoapods-core" version="1.0.1" timestamp="1465333809000" parser_version="15" git="false">
+          <additional_info authors="Eloy Duran, Fabio Pelosin" email="eloy.de.enige@gmail.com, fabiopelosin@gmail.com" homepage="https://github.com/CocoaPods/CocoaPods">
+            <summary>The models of CocoaPods</summary>
+          </additional_info>
+          <dependency name="nap" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="fuzzy_match" git="false" path="false" doRequire="true">
+            <bound version="2.0.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="4.0.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/httpclient-2.8.0" name="httpclient" version="2.8.0" timestamp="1470153991000" parser_version="15" git="false">
+          <additional_info authors="Hiroshi Nakamura" email="nahi@ruby-lang.org" homepage="https://github.com/nahi/httpclient">
+            <summary>gives something like the functionality of libwww-perl (LWP) in Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/ruby-progressbar-1.8.1" name="ruby-progressbar" version="1.8.1" timestamp="1470150783000" parser_version="15" git="false">
+          <additional_info authors="thekompanee, jfelchner" email="support@thekompanee.com" homepage="https://github.com/jfelchner/ruby-progressbar">
+            <summary>Ruby/ProgressBar is a flexible text progress bar library for Ruby.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.6" name="activesupport" version="4.2.6" timestamp="1465333807000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.</summary>
+          </additional_info>
+          <dependency name="json" git="false" path="false" doRequire="true">
+            <bound version="1.7" bound="LATEST_IN_BRANCH" />
+            <bound version="1.7.7" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="thread_safe" git="false" path="false" doRequire="true">
+            <bound version="0.3" bound="LATEST_IN_BRANCH" />
+            <bound version="0.3.4" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="i18n" git="false" path="false" doRequire="true">
+            <bound version="0.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="tzinfo" git="false" path="false" doRequire="true">
+            <bound version="1.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="minitest" git="false" path="false" doRequire="true">
+            <bound version="5.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/gym-1.7.0" name="gym" version="1.7.0" timestamp="1470153986000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="gym@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Building your iOS apps has never been easier</summary>
+          </additional_info>
+          <dependency name="terminal-table" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.43.3" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="xcpretty" git="false" path="false" doRequire="true">
+            <bound version="0.2.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="rubyzip" git="false" path="false" doRequire="true">
+            <bound version="1.1.7" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/i18n-0.7.0" name="i18n" version="0.7.0" timestamp="1465333806000" parser_version="15" git="false">
+          <additional_info authors="Sven Fuchs, Joshua Harvey, Matt Aimonetti, Stephan Soller, Saimon Moore" email="rails-i18n@googlegroups.com" homepage="http://github.com/svenfuchs/i18n">
+            <summary>New wave Internationalization support for Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/xcpretty-travis-formatter-0.0.4" name="xcpretty-travis-formatter" version="0.0.4" timestamp="1470153993000" parser_version="15" git="false">
+          <additional_info authors="Delisa Mason" email="iskanamagus@gmail.com" homepage="https://github.com/kattrali/xcpretty-travis-formatter">
+            <summary>xcpretty custom formatter for TravisCI</summary>
+          </additional_info>
+          <dependency name="xcpretty" git="false" path="false" doRequire="true">
+            <bound version="0.0.7" bound="GREATER_OR_EQUAL" />
+            <bound version="0.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/scan-0.10.0" name="scan" version="0.10.0" timestamp="1470153993000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="scan@krausefx.com" homepage="https://fastlane.tools">
+            <summary>The easiest way to run tests of your iOS and Mac app</summary>
+          </additional_info>
+          <dependency name="slack-notifier" git="false" path="false" doRequire="true">
+            <bound version="1.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="xcpretty-travis-formatter" git="false" path="false" doRequire="true">
+            <bound version="0.0.3" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="terminal-table" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.43.3" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="xcpretty" git="false" path="false" doRequire="true">
+            <bound version="0.2.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/thread_safe-0.3.5" name="thread_safe" version="0.3.5" timestamp="1465333806000" parser_version="15" git="false">
+          <additional_info authors="Charles Oliver Nutter, thedarkone" email="headius@headius.com, thedarkone2@gmail.com" homepage="https://github.com/ruby-concurrency/thread_safe">
+            <summary>A collection of data structures and utilities to make thread-safe programming in Ruby easier</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/terminal-table-1.4.5" name="terminal-table" version="1.4.5" timestamp="1470153966000" parser_version="15" git="false">
+          <additional_info authors="TJ Holowaychuk, Scott J. Goldman" email="tj@vision-media.ca" homepage="http://github.com/visionmedia/terminal-table">
+            <summary>Simple, feature rich ascii table generation library</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/memoist-0.14.0" name="memoist" version="0.14.0" timestamp="1470153989000" parser_version="15" git="false">
+          <additional_info authors="Joshua Peek, Tarmo T\u{e4}nav, Jeremy Kemper, Eugene Pimenov, Xavier Noria, Niels Ganser, Carl Lerche &amp; Yehuda Katz, jeem, Jay Pignata, Damien Mathieu, Jos\u{e9} Valim, Matthew Rudy Jacobs" email="josh@joshpeek.com, tarmo@itech.ee, jeremy@bitsweat.net, libc@mac.com, fxn@hashref.com, niels@herimedia.co, wycats@gmail.com, jeem@hughesorama.com, john.pignata@gmail.com, 42@dmathieu.com, jose.valim@gmail.com, matthewrudyjacobs@gmail.com" homepage="https://github.com/matthewrudy/memoist">
+            <summary>memoize methods invocation</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/cert-1.4.1" name="cert" version="1.4.1" timestamp="1470153985000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="cert@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Create new iOS code signing certificates</summary>
+          </additional_info>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.29.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.22.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/spaceship-0.29.1" name="spaceship" version="0.29.1" timestamp="1470153981000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause, Stefan Natchev" email="spaceship@krausefx.com, stefan@natchev.com" homepage="https://fastlane.tools">
+            <summary>Ruby library to access the Apple Dev Center and iTunes Connect</summary>
+          </additional_info>
+          <dependency name="colored" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="multi_xml" git="false" path="false" doRequire="true">
+            <bound version="0.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="faraday-cookie_jar" git="false" path="false" doRequire="true">
+            <bound version="0.0.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="fastimage" git="false" path="false" doRequire="true">
+            <bound version="1.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.9.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="faraday_middleware" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/nap-1.1.0" name="nap" version="1.1.0" timestamp="1465333807000" parser_version="15" git="false">
+          <additional_info authors="Manfred Stienstra" email="manfred@fngtps.com" homepage="https://github.com/Fingertips/nap">
+            <summary>Nap is a really simple REST library.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/representable-2.3.0" name="representable" version="2.3.0" timestamp="1470153987000" parser_version="15" git="false">
+          <additional_info authors="Nick Sutterer" email="apotonick@gmail.com" homepage="https://github.com/apotonick/representable/">
+            <summary>Renders and parses JSON/XML/YAML documents from and to Ruby objects. Includes plain properties, collections, nesting, coercion and more.</summary>
+          </additional_info>
+          <dependency name="uber" git="false" path="false" doRequire="true">
+            <bound version="0.0.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/fastlane-1.99.0" name="fastlane" version="1.99.0" timestamp="1470153994000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause, Michael Furtak, Andrea Falcone, Sam Phillips, David Ohayon, Sam Robbins, Mark Pirri, Hemal Shah" email="fastlane@krausefx.com" homepage="https://fastlane.tools">
+            <summary>The easiest way to automate building and releasing your iOS and Android apps</summary>
+          </additional_info>
+          <dependency name="slack-notifier" git="false" path="false" doRequire="true">
+            <bound version="1.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.28.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="multipart-post" git="false" path="false" doRequire="true">
+            <bound version="2.0.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="pem" git="false" path="false" doRequire="true">
+            <bound version="1.3.1" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.16.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="produce" git="false" path="false" doRequire="true">
+            <bound version="1.1.2" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="terminal-table" git="false" path="false" doRequire="true">
+            <bound version="1.4.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="frameit" git="false" path="false" doRequire="true">
+            <bound version="2.7.0" bound="GREATER_OR_EQUAL" />
+            <bound version="3.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="deliver" git="false" path="false" doRequire="true">
+            <bound version="1.13.1" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="pilot" git="false" path="false" doRequire="true">
+            <bound version="1.9.1" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="xcode-install" git="false" path="false" doRequire="true">
+            <bound version="2.0.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="xcpretty" git="false" path="false" doRequire="true">
+            <bound version="0.2.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="xcodeproj" git="false" path="false" doRequire="true">
+            <bound version="0.20" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="addressable" git="false" path="false" doRequire="true">
+            <bound version="2.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5" bound="LESS" />
+          </dependency>
+          <dependency name="cert" git="false" path="false" doRequire="true">
+            <bound version="1.4.1" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="gym" git="false" path="false" doRequire="true">
+            <bound version="1.7.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="sigh" git="false" path="false" doRequire="true">
+            <bound version="1.8.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="scan" git="false" path="false" doRequire="true">
+            <bound version="0.8.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="match" git="false" path="false" doRequire="true">
+            <bound version="0.6.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="krausefx-shenzhen" git="false" path="false" doRequire="true">
+            <bound version="0.14.7" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="screengrab" git="false" path="false" doRequire="true">
+            <bound version="0.3.2" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="supply" git="false" path="false" doRequire="true">
+            <bound version="0.7.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="snapshot" git="false" path="false" doRequire="true">
+            <bound version="1.12.3" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="word_wrap" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="terminal-notifier" git="false" path="false" doRequire="true">
+            <bound version="1.6.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="bundler" git="false" path="false" doRequire="true">
+            <bound version="1.12" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.48.3" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/security-0.1.3" name="security" version="0.1.3" timestamp="1470153968000" parser_version="15" git="false">
+          <additional_info authors="Mattt Thompson" email="m@mattt.me" homepage="http://mattt.me">
+            <summary>Security</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/retriable-2.1.0" name="retriable" version="2.1.0" timestamp="1470153987000" parser_version="15" git="false">
+          <additional_info authors="Jack Chu" email="jack@jackchu.com" homepage="http://github.com/kamui/retriable">
+            <summary>Retriable is an simple DSL to retry failed code blocks with randomized exponential backoff</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/escape-0.0.4" name="escape" version="0.0.4" timestamp="1465333807000" parser_version="15" git="false">
+          <additional_info authors="Tanaka Akira" email="N/A" homepage="http://www.a-k-r.org/escape/">
+            <summary>...</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/http-cookie-1.0.2" name="http-cookie" version="1.0.2" timestamp="1470153979000" parser_version="15" git="false">
+          <additional_info authors="Akinori MUSHA, Aaron Patterson, Eric Hodel, Mike Dalessio" email="knu@idaemons.org, aaronp@rubyforge.org, drbrain@segment7.net, mike.dalessio@gmail.com" homepage="https://github.com/sparklemotion/http-cookie">
+            <summary>A Ruby library to handle HTTP Cookies based on RFC 6265</summary>
+          </additional_info>
+          <dependency name="domain_name" git="false" path="false" doRequire="true">
+            <bound version="0.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/slack-notifier-1.5.1" name="slack-notifier" version="1.5.1" timestamp="1470153969000" parser_version="15" git="false">
+          <additional_info authors="Steven Sloan" email="stevenosloan@gmail.com" homepage="http://github.com/stevenosloan/slack-notifier">
+            <summary>A slim ruby wrapper for posting to slack webhooks</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/colorize-0.7.7" name="colorize" version="0.7.7" timestamp="1466775400000" parser_version="15" git="false">
+          <additional_info authors="Michał Kalbarczyk" email="fazibear@gmail.com" homepage="http://github.com/fazibear/colorize">
+            <summary>Add color methods to String class</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/fastimage-1.6.8" name="fastimage" version="1.6.8" timestamp="1470153981000" parser_version="15" git="false">
+          <additional_info authors="Stephen Sykes" email="sdsykes@gmail.com" homepage="http://github.com/sdsykes/fastimage">
+            <summary>FastImage - Image info fast</summary>
+          </additional_info>
+          <dependency name="addressable" git="false" path="false" doRequire="true">
+            <bound version="2.3" bound="LATEST_IN_BRANCH" />
+            <bound version="2.3.5" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/unf-0.1.4" name="unf" version="0.1.4" timestamp="1470153979000" parser_version="15" git="false">
+          <additional_info authors="Akinori MUSHA" email="knu@idaemons.org" homepage="https://github.com/knu/ruby-unf">
+            <summary>A wrapper library to bring Unicode Normalization Form support to Ruby/JRuby</summary>
+          </additional_info>
+          <dependency name="unf_ext" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/fuzzy_match-2.0.4" name="fuzzy_match" version="2.0.4" timestamp="1465333808000" parser_version="15" git="false">
+          <additional_info authors="Seamus Abshere" email="seamus@abshere.net" homepage="https://github.com/seamusabshere/fuzzy_match">
+            <summary>Find a needle in a haystack using string similarity and (optionally) regexp rules. Replaces loose_tight_dictionary.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/logging-2.1.0" name="logging" version="2.1.0" timestamp="1470153988000" parser_version="15" git="false">
+          <additional_info authors="Tim Pease" email="tim.pease@gmail.com" homepage="http://rubygems.org/gems/logging">
+            <summary>A flexible and extendable logging library for Ruby</summary>
+          </additional_info>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.10" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="little-plugger" git="false" path="false" doRequire="true">
+            <bound version="1.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/mime-types-3.1" name="mime-types" version="3.1" timestamp="1470153987000" parser_version="15" git="false">
+          <additional_info authors="Austin Ziegler" email="halostatue@gmail.com" homepage="https://github.com/mime-types/ruby-mime-types/">
+            <summary>The mime-types library provides a library and registry for information about MIME content type definitions</summary>
+          </additional_info>
+          <dependency name="mime-types-data" git="false" path="false" doRequire="true">
+            <bound version="3.2015" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/jwt-1.5.4" name="jwt" version="1.5.4" timestamp="1470153989000" parser_version="15" git="false">
+          <additional_info authors="Jeff Lindsay, Tim Rudat" email="timrudat@gmail.com" homepage="http://github.com/jwt/ruby-jwt">
+            <summary>JSON Web Token implementation in Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/terminal-notifier-1.6.3" name="terminal-notifier" version="1.6.3" timestamp="1470153970000" parser_version="15" git="false">
+          <additional_info authors="Eloy Duran, Julien Blanchard" email="eloy.de.enige@gmail.com, julien@sideburns.eu" homepage="https://github.com/alloy/terminal-notifier">
+            <summary>Send User Notifications on Mac OS X 10.8 or higher.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/molinillo-0.4.5" name="molinillo" version="0.4.5" timestamp="1465333807000" parser_version="15" git="false">
+          <additional_info authors="Samuel E. Giddins" email="segiddins@segiddins.me" homepage="https://github.com/CocoaPods/Molinillo">
+            <summary>Provides support for dependency resolution</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/os-0.9.6" name="os" version="0.9.6" timestamp="1470153989000" parser_version="15" git="false">
+          <additional_info authors="rdp, David McCullars" email="rogerpack2005@gmail.com" homepage="http://github.com/rdp/os">
+            <summary>Simple and easy way to know if you're on windows or not (reliably), as well as how many bits the OS is, etc.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/commander-4.3.5" name="commander" version="4.3.5" timestamp="1470153966000" parser_version="15" git="false">
+          <additional_info authors="TJ Holowaychuk, Gabriel Gilder" email="gabriel@gabrielgilder.com" homepage="https://github.com/commander-rb/commander">
+            <summary>The complete solution for Ruby command-line executables</summary>
+          </additional_info>
+          <dependency name="highline" git="false" path="false" doRequire="true">
+            <bound version="1.7.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/plist-3.1.0" name="plist" version="3.1.0" timestamp="1470153968000" parser_version="15" git="false">
+          <additional_info authors="Ben Bleything and Patrick May" email="N/A" homepage="http://plist.rubyforge.org">
+            <summary>All-purpose Property List manipulation library.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/unicode-display_width-1.1.0" name="unicode-display_width" version="1.1.0" timestamp="1470150783000" parser_version="15" git="false">
+          <additional_info authors="Jan Lelis" email="mail@janlelis.de" homepage="http://github.com/janlelis/unicode-display_width">
+            <summary>Determines the monospace display width of a string in Ruby.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/cocoapods-stats-1.0.0" name="cocoapods-stats" version="1.0.0" timestamp="1465333808000" parser_version="15" git="false">
+          <additional_info authors="Orta Therox, Samuel Giddins" email="orta.therox@gmail.com, segiddins@segiddins.me" homepage="https://github.com/cocoapods/cocoapods-stats">
+            <summary>Uploads installation version data to stats.cocoapods.org to provide per-Pod analytics.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/signet-0.7.3" name="signet" version="0.7.3" timestamp="1470153990000" parser_version="15" git="false">
+          <additional_info authors="Bob Aman, Steven Bazyl" email="sbazyl@google.com" homepage="https://github.com/google/signet/">
+            <summary>Signet is an OAuth 1.0 / OAuth 2.0 implementation.</summary>
+          </additional_info>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.10" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="jwt" git="false" path="false" doRequire="true">
+            <bound version="1.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="addressable" git="false" path="false" doRequire="true">
+            <bound version="2.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/deliver-1.13.1" name="deliver" version="1.13.1" timestamp="1470153984000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="deliver@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Upload screenshots, metadata and your app to the App Store using a single command</summary>
+          </additional_info>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.26.2" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.46.2" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="fastimage" git="false" path="false" doRequire="true">
+            <bound version="1.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.16.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/supply-0.7.0" name="supply" version="0.7.0" timestamp="1470153992000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="supply@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Command line tool for updating Android apps and their metadata on the Google Play Store</summary>
+          </additional_info>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.15.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.43.4" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="google-api-client" git="false" path="false" doRequire="true">
+            <bound version="0.9.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/powerpack-0.1.1" name="powerpack" version="0.1.1" timestamp="1470150782000" parser_version="15" git="false">
+          <additional_info authors="Bozhidar Batsov" email="bozhidar@batsov.com" homepage="https://github.com/bbatsov/powerpack">
+            <summary>A few useful extensions to core Ruby classes.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/tzinfo-1.2.2" name="tzinfo" version="1.2.2" timestamp="1465333806000" parser_version="15" git="false">
+          <additional_info authors="Philip Ross" email="phil.ross@gmail.com" homepage="http://tzinfo.github.io">
+            <summary>Daylight savings aware timezone library</summary>
+          </additional_info>
+          <dependency name="thread_safe" git="false" path="false" doRequire="true">
+            <bound version="0.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/google-api-client-0.9.11" name="google-api-client" version="0.9.11" timestamp="1470153992000" parser_version="15" git="false">
+          <additional_info authors="Steven Bazyl, Tim Emiola, Sergio Gomes, Bob Aman" email="sbazyl@google.com" homepage="https://github.com/google/google-api-ruby-client">
+            <summary>Client for accessing Google APIs</summary>
+          </additional_info>
+          <dependency name="googleauth" git="false" path="false" doRequire="true">
+            <bound version="0.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="thor" git="false" path="false" doRequire="true">
+            <bound version="0.19" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="retriable" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="httpclient" git="false" path="false" doRequire="true">
+            <bound version="2.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="mime-types" git="false" path="false" doRequire="true">
+            <bound version="1.6" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="memoist" git="false" path="false" doRequire="true">
+            <bound version="0.11" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="hurley" git="false" path="false" doRequire="true">
+            <bound version="0.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="representable" git="false" path="false" doRequire="true">
+            <bound version="2.3.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="addressable" git="false" path="false" doRequire="true">
+            <bound version="2.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/cocoapods-playgrounds-1.2.0" name="cocoapods-playgrounds" version="1.2.0" timestamp="1466547956000" parser_version="15" git="false">
+          <additional_info authors="Boris B\u{fc}gling" email="boris@icculus.org" homepage="https://github.com/neonichu/ThisCouldBeUsButYouPlaying">
+            <summary>Generates a Swift Playground for any Pod.</summary>
+          </additional_info>
+          <dependency name="cocoapods" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/match-0.6.1" name="match" version="0.6.1" timestamp="1470153993000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="match@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Easily sync your certificates and profiles across your team using git</summary>
+          </additional_info>
+          <dependency name="sigh" git="false" path="false" doRequire="true">
+            <bound version="1.2.2" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="security" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.13.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.39.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.24.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="cert" git="false" path="false" doRequire="true">
+            <bound version="1.2.8" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/mini_magick-4.5.1" name="mini_magick" version="4.5.1" timestamp="1470153984000" parser_version="15" git="false">
+          <additional_info authors="Corey Johnson, Hampton Catlin, Peter Kieltyka, James Miller, Thiago Fernandes Massa, Janko Marohni\u{107}" email="probablycorey@gmail.com, hcatlin@gmail.com, peter@nulayer.com, bensie@gmail.com, thiagown@gmail.com, janko.marohnic@gmail.com" homepage="https://github.com/minimagick/minimagick">
+            <summary>Manipulate images with minimal use of memory via ImageMagick / GraphicsMagick</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/xcode-install-2.0.2" name="xcode-install" version="2.0.2" timestamp="1470153981000" parser_version="15" git="false">
+          <additional_info authors="Boris Bu\u{308}gling" email="boris@icculus.org" homepage="https://github.com/neonichu/xcode-install">
+            <summary>Xcode installation manager.</summary>
+          </additional_info>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.25.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="claide" git="false" path="false" doRequire="true">
+            <bound version="0.9.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.1.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/mime-types-data-3.2016.0521" name="mime-types-data" version="3.2016.0521" timestamp="1470153987000" parser_version="15" git="false">
+          <additional_info authors="Austin Ziegler" email="halostatue@gmail.com" homepage="https://github.com/mime-types/mime-types-data/">
+            <summary>mime-types-data provides a registry for information about MIME media type definitions</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/domain_name-0.5.20160615" name="domain_name" version="0.5.20160615" timestamp="1470153979000" parser_version="15" git="false">
+          <additional_info authors="Akinori MUSHA" email="knu@idaemons.org" homepage="https://github.com/knu/ruby-domain_name">
+            <summary>Domain Name manipulation library for Ruby</summary>
+          </additional_info>
+          <dependency name="unf" git="false" path="false" doRequire="true">
+            <bound version="0.0.5" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/gh_inspector-1.0.2" name="gh_inspector" version="1.0.2" timestamp="1470153983000" parser_version="15" git="false">
+          <additional_info authors="Orta Therox, Felix Krause" email="orta.therox@gmail.com, gh_inspector@krausefx.com" homepage="https://github.com/orta/gh_inspector">
+            <summary>Search through GitHub issues for your project for existing issues about a Ruby Error.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/babosa-1.0.2" name="babosa" version="1.0.2" timestamp="1470153982000" parser_version="15" git="false">
+          <additional_info authors="Norman Clarke" email="norman@njclarke.com" homepage="http://github.com/norman/babosa">
+            <summary>A library for creating slugs.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/faraday_middleware-0.10.0" name="faraday_middleware" version="0.10.0" timestamp="1470153967000" parser_version="15" git="false">
+          <additional_info authors="Erik Michaels-Ober, Wynn Netherland" email="sferik@gmail.com, wynn.netherland@gmail.com" homepage="https://github.com/lostisland/faraday_middleware">
+            <summary>Various middleware for Faraday</summary>
+          </additional_info>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.10" bound="LESS" />
+            <bound version="0.7.4" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/snapshot-1.13.0" name="snapshot" version="1.13.0" timestamp="1470153984000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="snapshot@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Automate taking localized screenshots of your iOS app on every device</summary>
+          </additional_info>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.43.3" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="xcpretty" git="false" path="false" doRequire="true">
+            <bound version="0.2.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="fastimage" git="false" path="false" doRequire="true">
+            <bound version="1.6.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/ast-2.3.0" name="ast" version="2.3.0" timestamp="1470150782000" parser_version="15" git="false">
+          <additional_info authors="whitequark" email="whitequark@whitequark.org" homepage="https://whitequark.github.io/ast/">
+            <summary>A library for working with Abstract Syntax Trees.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/rouge-1.11.1" name="rouge" version="1.11.1" timestamp="1470153969000" parser_version="15" git="false">
+          <additional_info authors="Jeanine Adkisson" email="jneen@jneen.net" homepage="http://rouge.jneen.net/">
+            <summary>A pure-ruby colorizer based on pygments</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/krausefx-shenzhen-0.14.9" name="krausefx-shenzhen" version="0.14.9" timestamp="1470153968000" parser_version="15" git="false">
+          <additional_info authors="Mattt Thompson" email="m@mattt.me" homepage="http://nomad-cli.com">
+            <summary>Shenzhen</summary>
+          </additional_info>
+          <dependency name="terminal-table" git="false" path="false" doRequire="true">
+            <bound version="1.4.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="json" git="false" path="false" doRequire="true">
+            <bound version="1.8" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="commander" git="false" path="false" doRequire="true">
+            <bound version="4.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="net-sftp" git="false" path="false" doRequire="true">
+            <bound version="2.1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rubyzip" git="false" path="false" doRequire="true">
+            <bound version="1.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="security" git="false" path="false" doRequire="true">
+            <bound version="0.1.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="dotenv" git="false" path="false" doRequire="true">
+            <bound version="0.7" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="highline" git="false" path="false" doRequire="true">
+            <bound version="1.7.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="faraday_middleware" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/xcodeproj-1.1.0" name="xcodeproj" version="1.1.0" timestamp="1465333807000" parser_version="15" git="false">
+          <additional_info authors="Eloy Duran" email="eloy.de.enige@gmail.com" homepage="https://github.com/cocoapods/xcodeproj">
+            <summary>Create and modify Xcode projects from Ruby.</summary>
+          </additional_info>
+          <dependency name="claide" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="colored" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/unf_ext-0.0.7.2" name="unf_ext" version="0.0.7.2" timestamp="1470153978000" parser_version="15" git="false">
+          <additional_info authors="Takeru Ohta, Akinori MUSHA" email="knu@idaemons.org" homepage="https://github.com/knu/ruby-unf_ext">
+            <summary>Unicode Normalization Form support library for CRuby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/pilot-1.10.0" name="pilot" version="1.10.0" timestamp="1470153986000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="pilot@krausefx.com" homepage="https://fastlane.tools">
+            <summary>The best way to manage your TestFlight testers and builds from your terminal</summary>
+          </additional_info>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.46.2" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="terminal-table" git="false" path="false" doRequire="true">
+            <bound version="1.4.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.29.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.3.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/cocoapods-deintegrate-1.0.0" name="cocoapods-deintegrate" version="1.0.0" timestamp="1465333808000" parser_version="15" git="false">
+          <additional_info authors="Kyle Fuller" email="kyle@fuller.li" homepage="https://github.com/kylef/cocoapods-deintegrate">
+            <summary>A CocoaPods plugin to remove and de-integrate CocoaPods from your project.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/cocoapods-search-1.0.0" name="cocoapods-search" version="1.0.0" timestamp="1465333808000" parser_version="15" git="false">
+          <additional_info authors="Eloy Dur\u{e1}n, Fabio Pelosin, Emma Koszinowski" email="eloy.de.enige@gmail.com, fabiopelosin@gmail.com, emkosz@gmail.com" homepage="https://github.com/CocoaPods/cocoapods-search">
+            <summary>Searches for pods, ignoring case, whose name matches `QUERY`. If the `--full` option is specified, this will also search in the summary and description of the pods.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/excon-0.45.4" name="excon" version="0.45.4" timestamp="1470153982000" parser_version="15" git="false">
+          <additional_info authors="dpiddy (Dan Peterson), geemus (Wesley Beary), nextmat (Matt Sanders)" email="geemus@gmail.com" homepage="https://github.com/excon/excon">
+            <summary>speed, persistence, http(s)</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/faraday-cookie_jar-0.0.6" name="faraday-cookie_jar" version="0.0.6" timestamp="1470153979000" parser_version="15" git="false">
+          <additional_info authors="Tatsuhiko Miyagawa" email="miyagawa@bulknews.net" homepage="https://github.com/miyagawa/faraday-cookie_jar">
+            <summary>Manages client-side cookie jar for Faraday HTTP client</summary>
+          </additional_info>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.7.4" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="http-cookie" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/dotenv-2.1.1" name="dotenv" version="2.1.1" timestamp="1470153967000" parser_version="15" git="false">
+          <additional_info authors="Brandon Keepers" email="brandon@opensoul.org" homepage="https://github.com/bkeepers/dotenv">
+            <summary>Loads environment variables from `.env`.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/hurley-0.2" name="hurley" version="0.2" timestamp="1470153988000" parser_version="15" git="false">
+          <additional_info authors="Rick Olson, Wynn Netherland, Ben Maraney, Kevin Kirsche" email="technoweenie@gmail.com, kev.kirsche@gmail.com" homepage="https://github.com/lostisland/hurley">
+            <summary>HTTP client wrapper</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/rainbow-2.1.0" name="rainbow" version="2.1.0" timestamp="1470150781000" parser_version="15" git="false">
+          <additional_info authors="Marcin Kulik" email="m@ku1ik.com" homepage="https://github.com/sickill/rainbow">
+            <summary>Colorize printed text on ANSI terminals</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/addressable-2.3.8" name="addressable" version="2.3.8" timestamp="1470153970000" parser_version="15" git="false">
+          <additional_info authors="Bob Aman" email="bob@sporkmonger.com" homepage="https://github.com/sporkmonger/addressable">
+            <summary>URI Implementation</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/googleauth-0.5.1" name="googleauth" version="0.5.1" timestamp="1470153990000" parser_version="15" git="false">
+          <additional_info authors="Tim Emiola" email="temiola@google.com" homepage="https://github.com/google/google-auth-library-ruby">
+            <summary>Google Auth Library for Ruby</summary>
+          </additional_info>
+          <dependency name="jwt" git="false" path="false" doRequire="true">
+            <bound version="1.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="memoist" git="false" path="false" doRequire="true">
+            <bound version="0.12" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="os" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.11" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="faraday" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="logging" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="signet" git="false" path="false" doRequire="true">
+            <bound version="0.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/parser-2.3.1.2" name="parser" version="2.3.1.2" timestamp="1470150782000" parser_version="15" git="false">
+          <additional_info authors="whitequark" email="whitequark@whitequark.org" homepage="https://github.com/whitequark/parser">
+            <summary>A Ruby parser written in pure Ruby.</summary>
+          </additional_info>
+          <dependency name="ast" git="false" path="false" doRequire="true">
+            <bound version="2.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/cocoapods-try-1.0.0" name="cocoapods-try" version="1.0.0" timestamp="1465333807000" parser_version="15" git="false">
+          <additional_info authors="Fabio Pelosin" email="N/A" homepage="https://github.com/cocoapods/cocoapods-try">
+            <summary>CocoaPods plugin which allows to quickly try the demo project of a Pod.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/cocoapods-1.0.1" name="cocoapods" version="1.0.1" timestamp="1465333809000" parser_version="15" git="false">
+          <additional_info authors="Eloy Duran, Fabio Pelosin, Kyle Fuller, Samuel Giddins" email="eloy.de.enige@gmail.com, fabiopelosin@gmail.com, kyle@fuller.li, segiddins@segiddins.me" homepage="https://github.com/CocoaPods/CocoaPods">
+            <summary>The Cocoa library package manager.</summary>
+          </additional_info>
+          <dependency name="cocoapods-plugins" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="nap" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="fourflusher" git="false" path="false" doRequire="true">
+            <bound version="0.3.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="cocoapods-stats" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="cocoapods-deintegrate" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="cocoapods-downloader" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="xcodeproj" git="false" path="false" doRequire="true">
+            <bound version="1.1.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="cocoapods-core" git="false" path="false" doRequire="true">
+            <bound version="1.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="escape" git="false" path="false" doRequire="true">
+            <bound version="0.0.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="cocoapods-trunk" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="claide" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="cocoapods-search" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="colored" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="cocoapods-try" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="4.0.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="molinillo" git="false" path="false" doRequire="true">
+            <bound version="0.4.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/synx-0.2.1" name="synx" version="0.2.1" timestamp="1466775400000" parser_version="15" git="false">
+          <additional_info authors="Mark Larsen" email="mark@venmo.com" homepage="https://github.com/venmo/synx">
+            <summary>A command-line tool that reorganizes your Xcode project folder to match your Xcode groups</summary>
+          </additional_info>
+          <dependency name="colorize" git="false" path="false" doRequire="true">
+            <bound version="0.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="clamp" git="false" path="false" doRequire="true">
+            <bound version="0.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="xcodeproj" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/uber-0.0.15" name="uber" version="0.0.15" timestamp="1470153986000" parser_version="15" git="false">
+          <additional_info authors="Nick Sutterer" email="apotonick@gmail.com" homepage="https://github.com/apotonick/uber">
+            <summary>Gem-authoring tools like class method inheritance in modules, dynamic options and more.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/word_wrap-1.0.0" name="word_wrap" version="1.0.0" timestamp="1470153982000" parser_version="15" git="false">
+          <additional_info authors="Radek Pazdera" email="radek@pazdera.co.uk" homepage="https://github.com/pazdera/word_wrap">
+            <summary>Simple tool for word-wrapping text</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/bundler-1.12.5" name="bundler" version="1.12.5" timestamp="1470155188000" parser_version="15" git="false">
+          <additional_info authors="Andr\u{e9} Arko, Terence Lee, Carl Lerche, Yehuda Katz" email="andre.arko+terence.lee@gmail.com" homepage="http://bundler.io">
+            <summary>The best way to manage your application's dependencies</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/net-ssh-3.2.0" name="net-ssh" version="3.2.0" timestamp="1470153967000" parser_version="15" git="false">
+          <additional_info authors="Jamis Buck, Delano Mandelbaum, Mikl\u{f3}s Fazekas" email="net-ssh@solutious.com" homepage="https://github.com/net-ssh/net-ssh">
+            <summary>Net::SSH: a pure-Ruby implementation of the SSH2 client protocol.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/pem-1.3.2" name="pem" version="1.3.2" timestamp="1470153985000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="pem@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Automatically generate and renew your push notification profiles</summary>
+          </additional_info>
+          <dependency name="spaceship" git="false" path="false" doRequire="true">
+            <bound version="0.26.2" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.43.1" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/multipart-post-2.0.0" name="multipart-post" version="2.0.0" timestamp="1470153967000" parser_version="15" git="false">
+          <additional_info authors="Nick Sieger" email="nick@nicksieger.com" homepage="https://github.com/nicksieger/multipart-post">
+            <summary>A multipart form post accessory for Net::HTTP.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/clamp-0.6.5" name="clamp" version="0.6.5" timestamp="1466775399000" parser_version="15" git="false">
+          <additional_info authors="Mike Williams" email="mdub@dogbiscuit.org" homepage="http://github.com/mdub/clamp">
+            <summary>a minimal framework for command-line utilities</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/fourflusher-0.3.1" name="fourflusher" version="0.3.1" timestamp="1465333807000" parser_version="15" git="false">
+          <additional_info authors="Boris Bu\u{308}gling" email="boris@icculus.org" homepage="https://github.com/neonichu/fourflusher">
+            <summary>A library for interacting with Xcode simulators.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/multi_json-1.12.1" name="multi_json" version="1.12.1" timestamp="1470153982000" parser_version="15" git="false">
+          <additional_info authors="Michael Bleigh, Josh Kalderimis, Erik Michaels-Ober, Pavel Pravosud" email="michael@intridea.com, josh.kalderimis@gmail.com, sferik@gmail.com, pavel@pravosud.com" homepage="http://github.com/intridea/multi_json">
+            <summary>A common interface to multiple JSON libraries.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/cocoapods-trunk-1.0.0" name="cocoapods-trunk" version="1.0.0" timestamp="1465333808000" parser_version="15" git="false">
+          <additional_info authors="Eloy Dur\u{e1}n" email="eloy.de.enige@gmail.com" homepage="https://github.com/CocoaPods/cocoapods-trunk">
+            <summary>Interact with trunk.cocoapods.org</summary>
+          </additional_info>
+          <dependency name="nap" git="false" path="false" doRequire="true">
+            <bound version="0.8" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="netrc" git="false" path="false" doRequire="true">
+            <bound version="0.7.8" bound="EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/multi_xml-0.5.5" name="multi_xml" version="0.5.5" timestamp="1470153971000" parser_version="15" git="false">
+          <additional_info authors="Erik Michaels-Ober" email="sferik@gmail.com" homepage="https://github.com/sferik/multi_xml">
+            <summary>A generic swappable back-end for XML parsing</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/cocoapods-plugins-1.0.0" name="cocoapods-plugins" version="1.0.0" timestamp="1465333808000" parser_version="15" git="false">
+          <additional_info authors="David Grandinetti, Olivier Halligon" email="N/A" homepage="https://github.com/cocoapods/cocoapods-plugins">
+            <summary>CocoaPods plugin which shows info about available CocoaPods plugins.</summary>
+          </additional_info>
+          <dependency name="nap" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/screengrab-0.3.2" name="screengrab" version="0.3.2" timestamp="1470153994000" parser_version="15" git="false">
+          <additional_info authors="Andrea Falcone, Michael Furtak" email="screengrab@fabric.io" homepage="https://fastlane.tools">
+            <summary>Automated localized screenshots of your Android app on every device</summary>
+          </additional_info>
+          <dependency name="fastlane_core" git="false" path="false" doRequire="true">
+            <bound version="0.38.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/faraday-0.9.2" name="faraday" version="0.9.2" timestamp="1470153967000" parser_version="15" git="false">
+          <additional_info authors="Rick Olson" email="technoweenie@gmail.com" homepage="https://github.com/lostisland/faraday">
+            <summary>HTTP/REST API client library.</summary>
+          </additional_info>
+          <dependency name="multipart-post" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="GREATER_OR_EQUAL" />
+            <bound version="3" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/rubyzip-1.1.7" name="rubyzip" version="1.1.7" timestamp="1470153968000" parser_version="15" git="false">
+          <additional_info authors="Alexander Simonov" email="alex@simonov.me" homepage="http://github.com/rubyzip/rubyzip">
+            <summary>rubyzip is a ruby module for reading and writing zip files</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/erubis-2.7.0" name="erubis" version="2.7.0" timestamp="1470340961000" parser_version="15" git="false">
+          <additional_info authors="makoto kuwata" email="kwa(at)kuwata-lab.com" homepage="http://www.kuwata-lab.com/erubis/">
+            <summary>a fast and extensible eRuby implementation which supports multi-language</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/thor-0.19.1" name="thor" version="0.19.1" timestamp="1470153990000" parser_version="15" git="false">
+          <additional_info authors="Yehuda Katz, Jos\u{e9} Valim" email="ruby-thor@googlegroups.com" homepage="http://whatisthor.com/">
+            <summary>Thor is a toolkit for building powerful command-line interfaces.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/little-plugger-1.1.4" name="little-plugger" version="1.1.4" timestamp="1470153988000" parser_version="15" git="false">
+          <additional_info authors="Tim Pease" email="tim.pease@gmail.com" homepage="http://gemcutter.org/gems/little-plugger">
+            <summary>LittlePlugger is a module that provides Gem based plugin management.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/claide-1.0.0" name="claide" version="1.0.0" timestamp="1465333806000" parser_version="15" git="false">
+          <additional_info authors="Eloy Duran, Fabio Pelosin" email="eloy.de.enige@gmail.com, fabiopelosin@gmail.com" homepage="https://github.com/CocoaPods/CLAide">
+            <summary>A small command-line interface framework.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/fastlane_core-0.48.3" name="fastlane_core" version="0.48.3" timestamp="1470153983000" parser_version="15" git="false">
+          <additional_info authors="Felix Krause" email="fastlanecore@krausefx.com" homepage="https://fastlane.tools">
+            <summary>Contains all shared code/dependencies of the fastlane.tools</summary>
+          </additional_info>
+          <dependency name="terminal-table" git="false" path="false" doRequire="true">
+            <bound version="1.4.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="colored" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="commander" git="false" path="false" doRequire="true">
+            <bound version="4.3.5" bound="EQUAL" />
+          </dependency>
+          <dependency name="json" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="babosa" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="gh_inspector" git="false" path="false" doRequire="true">
+            <bound version="1.0.1" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="plist" git="false" path="false" doRequire="true">
+            <bound version="3.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rubyzip" git="false" path="false" doRequire="true">
+            <bound version="1.1.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="credentials_manager" git="false" path="false" doRequire="true">
+            <bound version="0.16.0" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0.0" bound="LESS" />
+          </dependency>
+          <dependency name="excon" git="false" path="false" doRequire="true">
+            <bound version="0.45.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="highline" git="false" path="false" doRequire="true">
+            <bound version="1.7.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+      </box>
+      <box url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@global/gems">
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@global/gems/bundler-unload-1.0.2" name="bundler-unload" version="1.0.2" timestamp="1465333211000" parser_version="15" git="false">
+          <additional_info authors="Michal Papis" email="mpapis@gmail.com" homepage="https://github.com/mpapis/bundler-unload">
+            <summary>Allow unloading bundler after Bundler.load</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@global/gems/rvm-1.11.3.9" name="rvm" version="1.11.3.9" timestamp="1465333212000" parser_version="15" git="false">
+          <additional_info authors="Wayne E. Seguin, Michal Papis" email="wayneeseguin@gmail.com, mpapis@gmail.com" homepage="http://rvm.io/">
+            <summary>RVM Ruby Gem Library</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@global/gems/gem-wrappers-1.2.7" name="gem-wrappers" version="1.2.7" timestamp="1465333209000" parser_version="15" git="false">
+          <additional_info authors="Michal Papis" email="mpapis@gmail.com" homepage="https://github.com/rvm/gem-wrappers">
+            <summary>Create gem wrappers for easy use of gems in cron and other system locations.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@global/gems/rubygems-bundler-1.4.4" name="rubygems-bundler" version="1.4.4" timestamp="1465333211000" parser_version="15" git="false">
+          <additional_info authors="Josh Hull, Michal Papis" email="joshbuddy@gmail.com, mpapis@gmail.com" homepage="http://mpapis.github.com/rubygems-bundler">
+            <summary>Stop using bundle exec</summary>
+          </additional_info>
+          <dependency name="bundler-unload" git="false" path="false" doRequire="true">
+            <bound version="1.0.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="executable-hooks" git="false" path="false" doRequire="true">
+            <bound version="1.3.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@global/gems/executable-hooks-1.3.2" name="executable-hooks" version="1.3.2" timestamp="1465333211000" parser_version="15" git="false">
+          <additional_info authors="Michal Papis" email="mpapis@gmail.com" homepage="https://github.com/mpapis/executable-hooks">
+            <summary>Hook into rubygems executables allowing extra actions to be taken before executable is run.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@global/gems/minitest-5.8.3" name="minitest" version="5.8.3" timestamp="1465333206000" parser_version="15" git="false">
+          <additional_info authors="Ryan Davis" email="ryand-ruby@zenspider.com" homepage="https://github.com/seattlerb/minitest">
+            <summary>minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@global/gems/rake-10.4.2" name="rake" version="10.4.2" timestamp="1465333206000" parser_version="15" git="false">
+          <additional_info authors="Eric Hodel, Jim Weirich" email="drbrain@segment7.net, " homepage="https://github.com/ruby/rake">
+            <summary>Rake is a Make-like program implemented in Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0" name="io-console" version="0.4.5" timestamp="0" parser_version="15" git="false">
+          <additional_info authors="N/A" email="N/A" homepage="N/A">
+            <summary>This io-console is bundled with Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@global/gems/net-telnet-0.1.1" name="net-telnet" version="0.1.1" timestamp="1465333206000" parser_version="15" git="false">
+          <additional_info authors="SHIBATA Hiroshi" email="hsbt@ruby-lang.org" homepage="https://github.com/ruby/net-telnet">
+            <summary>Provides telnet client functionality.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@global/gems/did_you_mean-1.0.0" name="did_you_mean" version="1.0.0" timestamp="1465333206000" parser_version="15" git="false">
+          <additional_info authors="Yuki Nishijima" email="mail@yukinishijima.net" homepage="https://github.com/yuki24/did_you_mean">
+            <summary>\&quot;Did you mean?\&quot; experience in Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@global/gems/power_assert-0.2.6" name="power_assert" version="0.2.6" timestamp="1465333206000" parser_version="15" git="false">
+          <additional_info authors="Kazuki Tsujimoto" email="kazuki@callcc.net" homepage="https://github.com/k-tsj/power_assert">
+            <summary>Power Assert for Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@global/gems/test-unit-3.1.5" name="test-unit" version="3.1.5" timestamp="1465333207000" parser_version="15" git="false">
+          <additional_info authors="Kouhei Sutou, Haruka Yoshihara" email="kou@cozmixng.org, yoshihara@clear-code.com" homepage="http://test-unit.github.io/">
+            <summary>An xUnit family unit testing framework for Ruby.</summary>
+          </additional_info>
+          <dependency name="power_assert" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+      </box>
+    </sdk2gems>
+  </component>
+  <component name="RemoteGemsState" version="3">
+    <entry url="http://gems.github.com" />
+  </component>
+</application>

@@ -1,0 +1,7 @@
+Authorization: OAuth oauth_consumer_key="8iF104tUanjjfiwee9pgH5in0",
+oauth_nonce="e83e32b74e503b1386fa196dc9a60473",
+oauth_signature="sgNqtlLA7GlFDCNFGQriXe5ocnA%3D",
+oauth_signature_method="HMAC-SHA1",
+oauth_timestamp="1448407743",
+oauth_token="15923564-iD4GSkaycRjiDI4D6dPvQB6NPJZvQa6jGSLRQ4bmR",
+oauth_version="1.0"

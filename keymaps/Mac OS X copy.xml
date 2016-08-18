@@ -1,0 +1,8 @@
+<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="ctrl x" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="ctrl d" />
+  </action>
+</keymap>

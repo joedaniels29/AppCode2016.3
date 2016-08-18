@@ -1,0 +1,311 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="JavaScript versions">
+      <project id="03modeling_josephd3" values="DEFAULT" collectionTime="0" />
+      <project id="sammm" values="ECMAScript 5.1" collectionTime="1467302672450" />
+      <project id="Swifton" values="ECMAScript 5.1" collectionTime="1469712838244" />
+      <project id="nilnil" values="DEFAULT" collectionTime="0" />
+      <project id="homework 4" values="ECMAScript 5.1" collectionTime="1460670835976" />
+      <project id="REACH" values="ECMAScript 5.1" collectionTime="1471531119445" />
+      <project id="homework5" values="ECMAScript 5.1" collectionTime="1462902110697" />
+      <project id="PlayBook" values="ECMAScript 5.1" collectionTime="1465488060464" />
+      <project id="homework2" values="ECMAScript 5.1" collectionTime="1462923317305" />
+      <project id="homework1" values="ECMAScript 5.1" collectionTime="1455663160158" />
+      <project id="Roxy" values="ECMAScript 5.1" collectionTime="1457666429591" />
+      <project id="linphone" values="DEFAULT" collectionTime="0" />
+      <project id="Epilepsy" values="ECMAScript 5.1" collectionTime="1470967778929" />
+      <project id="02primitives" values="DEFAULT" collectionTime="0" />
+      <project id="NerdTool" values="ECMAScript 5.1" collectionTime="1450362024949" />
+      <project id="FactoringAlgorithems" values="ECMAScript 5.1" collectionTime="1455663158285" />
+      <project id="JosephDaniels" values="DEFAULT" collectionTime="0" />
+      <project id="04bezier_josephd3" values="DEFAULT" collectionTime="0" />
+      <project id="Glance" values="ECMAScript 5.1" collectionTime="1458424307309" />
+      <project id="OAuthSwift" values="ECMAScript 5.1" collectionTime="1444433696019" />
+      <project id="homework3" values="ECMAScript 5.1" collectionTime="1462902194914" />
+      <project id="Uebersicht" values="DEFAULT" collectionTime="1437269585922" />
+      <project id="RayTracer-master" values="DEFAULT" collectionTime="0" />
+      <project id="SpriteKitSimpleGame" values="DEFAULT" collectionTime="1441075965943" />
+      <project id="EpiWatch" values="ECMAScript 5.1" collectionTime="1471371278578" />
+      <project id="Adventure" values="DEFAULT" collectionTime="0" />
+      <project id="Quotes" values="ECMAScript 5.1" collectionTime="1450362024974" />
+      <project id="Spectacle" values="ECMAScript 5.1" collectionTime="1459379643620" />
+    </group>
+    <group name="module type">
+      <project id="03modeling_josephd3" values="CIDR_MODULE" collectionTime="0" />
+      <project id="sammm" values="CIDR_MODULE" collectionTime="1467302672249" />
+      <project id="Swifton" values="CIDR_MODULE" collectionTime="1469712837876" />
+      <project id="nilnil" values="CIDR_MODULE" collectionTime="0" />
+      <project id="homework 4" values="CIDR_MODULE" collectionTime="1460670835773" />
+      <project id="REACH" values="CIDR_MODULE" collectionTime="1471531119189" />
+      <project id="homework5" values="CIDR_MODULE" collectionTime="1462902110675" />
+      <project id="PlayBook" values="CIDR_MODULE" collectionTime="1465488060261" />
+      <project id="homework2" values="CIDR_MODULE" collectionTime="1462923317239" />
+      <project id="homework1" values="CIDR_MODULE" collectionTime="1455663160136" />
+      <project id="Roxy" values="CIDR_MODULE" collectionTime="1457666429559" />
+      <project id="linphone" values="CIDR_MODULE" collectionTime="0" />
+      <project id="Epilepsy" values="CIDR_MODULE" collectionTime="1470967778745" />
+      <project id="02primitives" values="CIDR_MODULE" collectionTime="0" />
+      <project id="NerdTool" values="CIDR_MODULE" collectionTime="1450362024917" />
+      <project id="FactoringAlgorithems" values="CIDR_MODULE" collectionTime="1455663157969" />
+      <project id="JosephDaniels" values="CIDR_MODULE" collectionTime="0" />
+      <project id="04bezier_josephd3" values="CIDR_MODULE" collectionTime="0" />
+      <project id="Glance" values="CIDR_MODULE" collectionTime="1458424305723" />
+      <project id="OAuthSwift" values="CIDR_MODULE" collectionTime="1444433696005" />
+      <project id="homework3" values="CIDR_MODULE" collectionTime="1462902194892" />
+      <project id="Uebersicht" values="CIDR_MODULE" collectionTime="1437269585748" />
+      <project id="RayTracer-master" values="CIDR_MODULE" collectionTime="0" />
+      <project id="SpriteKitSimpleGame" values="CIDR_MODULE" collectionTime="1441075965932" />
+      <project id="EpiWatch" values="CIDR_MODULE" collectionTime="1471371278179" />
+      <project id="Adventure" values="CIDR_MODULE" collectionTime="0" />
+      <project id="Quotes" values="CIDR_MODULE" collectionTime="1450362024949" />
+      <project id="Spectacle" values="CIDR_MODULE" collectionTime="1459379643604" />
+    </group>
+    <group name="vcs">
+      <project id="03modeling_josephd3" values="Git" collectionTime="0" />
+      <project id="Swifton" values="Git" collectionTime="1469712837875" />
+      <project id="Glance" values="Git" collectionTime="1458424305708" />
+      <project id="REACH" values="Git" collectionTime="1471531119187" />
+      <project id="homework5" values="Git" collectionTime="1462902110675" />
+      <project id="homework3" values="Git" collectionTime="1462902194892" />
+      <project id="Uebersicht" values="Git" collectionTime="1437269585747" />
+      <project id="linphone" values="Git" collectionTime="0" />
+      <project id="Epilepsy" values="Git" collectionTime="1470967778744" />
+      <project id="02primitives" values="Git" collectionTime="0" />
+      <project id="FactoringAlgorithems" values="Git" collectionTime="1455663157969" />
+      <project id="JosephDaniels" values="Git" collectionTime="0" />
+      <project id="EpiWatch" values="Git" collectionTime="1471371278177" />
+      <project id="OAuthSwift" values="Git" collectionTime="1444433696005" />
+      <project id="Roxy" values="Git" collectionTime="1457666429559" />
+      <project id="Spectacle" values="Git" collectionTime="1459379643604" />
+    </group>
+    <group name="VCS Log 2">
+      <project id="EpiWatch" values="data.git.root.count.1,data.commit.count.1K+" collectionTime="1471371278291" />
+      <project id="Swifton" values="data.commit.count.100+,data.git.root.count.1" collectionTime="1469712837964" />
+      <project id="REACH" values="data.commit.count.10K+,data.git.root.count.5+" collectionTime="1471531119245" />
+      <project id="Epilepsy" values="data.git.root.count.1,data.commit.count.1K+" collectionTime="1470967778769" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="03modeling_josephd3" values="AppleRunConfiguration" collectionTime="0" />
+      <project id="Swifton" values="AppleRunConfiguration" collectionTime="1469712837877" />
+      <project id="Glance" values="AppleRunConfiguration" collectionTime="1458424305740" />
+      <project id="homework 4" values="AppleRunConfiguration" collectionTime="1460670835773" />
+      <project id="REACH" values="AppleRunConfiguration" collectionTime="1471531119190" />
+      <project id="homework5" values="AppleRunConfiguration" collectionTime="1462902110675" />
+      <project id="PlayBook" values="AppleRunConfiguration" collectionTime="1465488060262" />
+      <project id="homework2" values="AppleRunConfiguration" collectionTime="1462923317239" />
+      <project id="Roxy" values="AppleRunConfiguration" collectionTime="1457666429559" />
+      <project id="linphone" values="AppleRunConfiguration" collectionTime="0" />
+      <project id="02primitives" values="AppleRunConfiguration" collectionTime="0" />
+      <project id="NerdTool" values="AppleRunConfiguration" collectionTime="1450362024917" />
+      <project id="FactoringAlgorithems" values="AppleRunConfiguration" collectionTime="1455663157970" />
+      <project id="JosephDaniels" values="AppleRunConfiguration" collectionTime="0" />
+      <project id="04bezier_josephd3" values="AppleRunConfiguration" collectionTime="0" />
+      <project id="EpiWatch" values="AppleRunConfiguration" collectionTime="1471371278180" />
+      <project id="OAuthSwift" values="AppleRunConfiguration" collectionTime="1444433696005" />
+      <project id="homework3" values="AppleRunConfiguration" collectionTime="1462902194893" />
+      <project id="sammm" values="AppleRunConfiguration" collectionTime="1467302672250" />
+      <project id="SpriteKitSimpleGame" values="AppleRunConfiguration" collectionTime="1441075965932" />
+      <project id="Adventure" values="AppleRunConfiguration" collectionTime="0" />
+      <project id="Quotes" values="AppleRunConfiguration" collectionTime="1450362024949" />
+      <project id="Spectacle" values="AppleRunConfiguration" collectionTime="1459379643604" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="nilnil" values="AppleRunConfiguration" collectionTime="0" />
+      <project id="Uebersicht" values="AppleRunConfiguration" collectionTime="1437269585749" />
+      <project id="homework1" values="AppleRunConfiguration" collectionTime="1455663160136" />
+    </group>
+    <group name="Build Settings">
+      <project id="03modeling_josephd3" values="CLANG_ENABLE_OBJC_ARC YES,GCC_VERSION ,CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_CXX_LIBRARY libc++,GCC_C_LANGUAGE_STANDARD gnu99" collectionTime="0" />
+      <project id="sammm" values="GCC_C_LANGUAGE_STANDARD gnu99,CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_CXX_LIBRARY libc++,GCC_VERSION ,CLANG_ENABLE_OBJC_ARC YES" collectionTime="1467302672283" />
+      <project id="Swifton" values="GCC_C_LANGUAGE_STANDARD gnu99,CLANG_CXX_LIBRARY libc++,CLANG_ENABLE_OBJC_ARC YES,GCC_VERSION ,CLANG_CXX_LANGUAGE_STANDARD gnu++0x" collectionTime="1469712837968" />
+      <project id="nilnil" values="CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_CXX_LIBRARY libc++,CLANG_ENABLE_OBJC_ARC YES,GCC_C_LANGUAGE_STANDARD gnu99,GCC_VERSION " collectionTime="0" />
+      <project id="homework 4" values="GCC_VERSION ,GCC_C_LANGUAGE_STANDARD gnu99,CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_ENABLE_OBJC_ARC YES,CLANG_CXX_LIBRARY libc++" collectionTime="1460670835824" />
+      <project id="REACH" values="CLANG_CXX_LIBRARY libc++,GCC_VERSION ,GCC_C_LANGUAGE_STANDARD gnu99,CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_ENABLE_OBJC_ARC YES" collectionTime="1471531119254" />
+      <project id="homework5" values="CLANG_CXX_LIBRARY libc++,GCC_C_LANGUAGE_STANDARD gnu99,GCC_VERSION ,CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_ENABLE_OBJC_ARC YES" collectionTime="1462902110696" />
+      <project id="PlayBook" values="CLANG_CXX_LANGUAGE_STANDARD gnu++0x,GCC_VERSION ,GCC_C_LANGUAGE_STANDARD gnu99,CLANG_ENABLE_OBJC_ARC YES,CLANG_CXX_LIBRARY libc++" collectionTime="1465488060315" />
+      <project id="homework2" values="GCC_VERSION ,GCC_C_LANGUAGE_STANDARD gnu99,CLANG_ENABLE_OBJC_ARC YES,CLANG_CXX_LIBRARY libc++,CLANG_CXX_LANGUAGE_STANDARD gnu++0x" collectionTime="1462923317283" />
+      <project id="homework1" values="GCC_C_LANGUAGE_STANDARD gnu99,GCC_VERSION ,CLANG_CXX_LIBRARY libc++,CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_ENABLE_OBJC_ARC YES" collectionTime="1455663160151" />
+      <project id="Roxy" values="CLANG_CXX_LIBRARY libc++,GCC_C_LANGUAGE_STANDARD gnu99,CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_ENABLE_OBJC_ARC YES,GCC_VERSION " collectionTime="1457666429585" />
+      <project id="linphone" values="CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_CXX_LIBRARY libc++,CLANG_ENABLE_OBJC_ARC YES,GCC_C_LANGUAGE_STANDARD gnu99,GCC_C_LANGUAGE_STANDARD c99,GCC_VERSION com.apple.compilers.llvm.clang.1_0" collectionTime="0" />
+      <project id="Glance" values="GCC_VERSION ,CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_CXX_LIBRARY libc++,GCC_VERSION com.apple.compilers.llvm.clang.1_0,GCC_C_LANGUAGE_STANDARD gnu99,CLANG_ENABLE_OBJC_ARC YES" collectionTime="1458424306742" />
+      <project id="02primitives" values="CLANG_ENABLE_OBJC_ARC YES,GCC_VERSION ,CLANG_CXX_LANGUAGE_STANDARD gnu++0x,GCC_C_LANGUAGE_STANDARD gnu99,CLANG_CXX_LIBRARY libc++" collectionTime="0" />
+      <project id="NerdTool" values="GCC_C_LANGUAGE_STANDARD c99,GCC_VERSION " collectionTime="1450362024947" />
+      <project id="FactoringAlgorithems" values="GCC_VERSION ,CLANG_CXX_LIBRARY libc++,GCC_C_LANGUAGE_STANDARD gnu99,CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_ENABLE_OBJC_ARC YES" collectionTime="1455663158050" />
+      <project id="JosephDaniels" values="CLANG_CXX_LANGUAGE_STANDARD gnu++0x,GCC_C_LANGUAGE_STANDARD gnu99,CLANG_CXX_LIBRARY libc++,CLANG_ENABLE_OBJC_ARC YES,GCC_VERSION " collectionTime="0" />
+      <project id="04bezier_josephd3" values="CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_ENABLE_OBJC_ARC YES,CLANG_CXX_LIBRARY libc++,GCC_C_LANGUAGE_STANDARD gnu99,GCC_VERSION " collectionTime="0" />
+      <project id="EpiWatch" values="GCC_VERSION ,CLANG_ENABLE_OBJC_ARC YES,GCC_C_LANGUAGE_STANDARD gnu99,CLANG_CXX_LIBRARY libc++,CLANG_CXX_LANGUAGE_STANDARD gnu++0x" collectionTime="1471371278366" />
+      <project id="OAuthSwift" values="CLANG_CXX_LIBRARY libc++,CLANG_CXX_LANGUAGE_STANDARD gnu++0x,GCC_VERSION ,GCC_C_LANGUAGE_STANDARD gnu99,CLANG_ENABLE_OBJC_ARC YES" collectionTime="1444433696018" />
+      <project id="homework3" values="GCC_C_LANGUAGE_STANDARD gnu99,GCC_VERSION ,CLANG_ENABLE_OBJC_ARC YES,CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_CXX_LIBRARY libc++" collectionTime="1462902194913" />
+      <project id="Uebersicht" values="CLANG_CXX_LIBRARY libc++,CLANG_CXX_LANGUAGE_STANDARD gnu++0x,GCC_C_LANGUAGE_STANDARD gnu99,GCC_VERSION ,CLANG_ENABLE_OBJC_ARC YES" collectionTime="1437269585772" />
+      <project id="SpriteKitSimpleGame" values="GCC_C_LANGUAGE_STANDARD gnu99,CLANG_CXX_LIBRARY libc++,GCC_VERSION ,CLANG_ENABLE_OBJC_ARC YES,CLANG_CXX_LANGUAGE_STANDARD gnu++0x" collectionTime="1441075965941" />
+      <project id="Adventure" values="CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_CXX_LIBRARY libc++,GCC_VERSION ,CLANG_ENABLE_OBJC_ARC YES,GCC_C_LANGUAGE_STANDARD gnu99" collectionTime="0" />
+      <project id="Quotes" values="CLANG_CXX_LANGUAGE_STANDARD gnu++0x,CLANG_CXX_LIBRARY libc++,CLANG_ENABLE_OBJC_ARC YES,GCC_C_LANGUAGE_STANDARD gnu99,GCC_VERSION " collectionTime="1450362024973" />
+      <project id="Spectacle" values="CLANG_CXX_LIBRARY libc++,GCC_C_LANGUAGE_STANDARD gnu99,CLANG_ENABLE_OBJC_ARC YES,CLANG_CXX_LANGUAGE_STANDARD gnu++0x,GCC_VERSION " collectionTime="1459379643619" />
+    </group>
+    <group name="UI File Format">
+      <project id="REACH" values="Modern Xib iPhone (3.0),Storyboard iPhone (3.0)" collectionTime="0" />
+      <project id="SpriteKitSimpleGame" values="Storyboard iPhone (3.0)" collectionTime="0" />
+      <project id="Uebersicht" values="Modern Xib OS X (3.0),Xib OS X (8.00)" collectionTime="0" />
+      <project id="Glance" values="Unknown" collectionTime="0" />
+      <project id="linphone" values="Modern Xib iPhone (3.0),Storyboard iPad (3.0),Storyboard iPhone (3.0),Modern Xib iPad (3.0),Xib iPhone (8.00)" collectionTime="0" />
+      <project id="Adventure" values="Modern Xib OS X (3.0),Storyboard iPhone (3.0)" collectionTime="0" />
+      <project id="JosephDaniels" values="Modern Xib iPhone (3.0),Storyboard iPhone (3.0)" collectionTime="0" />
+    </group>
+    <group name="file-type">
+      <project id="03modeling_josephd3" values="UNKNOWN,PLAIN_TEXT,ObjectiveC" collectionTime="0" />
+      <project id="sammm" values="Storyboard,PLAIN_TEXT,Asset Catalog Contents,UNKNOWN,XCodeProjectFiles,ObjectiveC,XML,plist" collectionTime="1467302672277" />
+      <project id="Swifton" values="YAML,plist,ObjectiveC,UNKNOWN,xconfig,Podfile,ModuleMap,XCodeProjectFiles,JSON Schema,Images,Swift,PLAIN_TEXT,XML" collectionTime="1469712837952" />
+      <project id="nilnil" values="UNKNOWN,ObjectiveC" collectionTime="0" />
+      <project id="homework 4" values="UNKNOWN,XML,plist,ObjectiveC,PLAIN_TEXT,XCodeProjectFiles" collectionTime="1460670835816" />
+      <project id="REACH" values="Asset Catalog Contents,JavaScript,plist,CSS,DTD,YAML,XIB,XCodeProjectFiles,Native,ARCHIVE,Storyboard,JSON Schema,HTML,PLAIN_TEXT,Podfile,Strings,Swift,ObjectiveC,Images,UNKNOWN,XML,xconfig,ModuleMap" collectionTime="1471531119214" />
+      <project id="homework5" values="plist,PLAIN_TEXT,ObjectiveC,XCodeProjectFiles,XML,UNKNOWN" collectionTime="1462902110695" />
+      <project id="PlayBook" values="Asset Catalog Contents,Swift,JSON Schema,YAML,HTML,UNKNOWN,ModuleMap,Podfile,xconfig,Strings,Images,ObjectiveC,XML,PLAIN_TEXT,Storyboard,plist,Core Data model,XCodeProjectFiles" collectionTime="1465488060293" />
+      <project id="homework2" values="ObjectiveC,Images,PLAIN_TEXT,UNKNOWN,XML,plist,XCodeProjectFiles" collectionTime="1462923317272" />
+      <project id="homework1" values="PLAIN_TEXT,XML,UNKNOWN,XCodeProjectFiles,ObjectiveC" collectionTime="1455663160149" />
+      <project id="Roxy" values="XML,Swift,YAML,XCodeProjectFiles,UNKNOWN,PLAIN_TEXT,ObjectiveC,plist" collectionTime="1457666429582" />
+      <project id="linphone" values="Storyboard,HTML,Strings,ObjectiveC,xconfig,XIB,XML,Asset Catalog Contents,Images,UNKNOWN,plist,PLAIN_TEXT" collectionTime="0" />
+      <project id="Glance" values="XCodeProjectFiles,Storyboard,XML,YAML,Swift,plist,Images,Asset Catalog Contents,UNKNOWN,PLAIN_TEXT,Strings,xconfig,NIB,XIB,Podfile,ObjectiveC" collectionTime="1458424306391" />
+      <project id="02primitives" values="PLAIN_TEXT,UNKNOWN,ObjectiveC" collectionTime="0" />
+      <project id="NerdTool" values="XIB,NIB,UNKNOWN,XCodeProjectFiles,IDEA_MODULE,PLAIN_TEXT,Images,Strings,Native,XML,plist,ObjectiveC" collectionTime="1450362024946" />
+      <project id="FactoringAlgorithems" values="Swift,PLAIN_TEXT,plist,UNKNOWN,XCodeProjectFiles,XML,ObjectiveC" collectionTime="1455663158033" />
+      <project id="JosephDaniels" values="XIB,Podfile,plist,xconfig,Swift,Asset Catalog Contents,PLAIN_TEXT,Storyboard,Images,UNKNOWN,ObjectiveC" collectionTime="0" />
+      <project id="04bezier_josephd3" values="UNKNOWN,ObjectiveC" collectionTime="0" />
+      <project id="EpiWatch" values="XIB,ObjectiveC,xconfig,Native,Swift,JavaScript,SCSS,Strings,plist,SourceMap,Podfile,UNKNOWN,CSS,JSON Schema,XML,Core Data model,PLAIN_TEXT,Asset Catalog Contents,Images,XCodeProjectFiles,ModuleMap,HTML,Storyboard" collectionTime="1471371278246" />
+      <project id="OAuthSwift" values="plist,ObjectiveC,PLAIN_TEXT,XCodeProjectFiles,Asset Catalog Contents,UNKNOWN,Strings,IDEA_MODULE,Swift,Images,XML,Storyboard" collectionTime="1444433696014" />
+      <project id="homework3" values="UNKNOWN,plist,PLAIN_TEXT,Images,XML,ObjectiveC,XCodeProjectFiles" collectionTime="1462902194911" />
+      <project id="Uebersicht" values="XIB,Images,JavaScript,ObjectiveC,HTML,JSON,plist,Strings,UNKNOWN,Asset Catalog Contents,PLAIN_TEXT,CSS" collectionTime="1437269585759" />
+      <project id="RayTracer-master" values="UNKNOWN" collectionTime="0" />
+      <project id="SpriteKitSimpleGame" values="UNKNOWN,ObjectiveC,Strings,XCodeProjectFiles,PLAIN_TEXT,Images,Storyboard,XML,Asset Catalog Contents,plist" collectionTime="1441075965940" />
+      <project id="Adventure" values="Images,plist,Strings,UNKNOWN,Swift,Storyboard,Asset Catalog Contents,XIB" collectionTime="0" />
+      <project id="Quotes" values="Images,plist,XML,PLAIN_TEXT,XIB,Asset Catalog Contents,Swift,UNKNOWN,IDEA_MODULE,XCodeProjectFiles" collectionTime="1450362024972" />
+      <project id="Spectacle" values="XCodeProjectFiles,Strings,YAML,XML,UNKNOWN,ObjectiveC,PLAIN_TEXT,XIB,plist,Asset Catalog Contents,Podfile,Images" collectionTime="1459379643616" />
+    </group>
+    <group name="SDK">
+      <project id="03modeling_josephd3" values="OS X 10.10" collectionTime="0" />
+      <project id="sammm" values="iOS 9.3" collectionTime="1467302672280" />
+      <project id="Swifton" values="OS X 10.11" collectionTime="1469712837966" />
+      <project id="nilnil" values="OS X 10.10" collectionTime="0" />
+      <project id="homework 4" values="OS X 10.11" collectionTime="1460670835823" />
+      <project id="REACH" values="iOS 9.3" collectionTime="1471531119248" />
+      <project id="homework5" values="OS X 10.11" collectionTime="1462902110696" />
+      <project id="PlayBook" values="iOS 9.3" collectionTime="1465488060299" />
+      <project id="homework2" values="OS X 10.11" collectionTime="1462923317281" />
+      <project id="homework1" values="OS X 10.11" collectionTime="1455663160150" />
+      <project id="Roxy" values="OS X 10.11,watchOS 2.2,iOS 9.3,tvOS 9.2" collectionTime="1457666429583" />
+      <project id="linphone" values="iOS 8.3" collectionTime="0" />
+      <project id="Glance" values="iOS 9.3,OS X 10.11" collectionTime="1458424306556" />
+      <project id="02primitives" values="OS X 10.10" collectionTime="0" />
+      <project id="NerdTool" values="OS X 10.11" collectionTime="1450362024947" />
+      <project id="FactoringAlgorithems" values="OS X 10.11" collectionTime="1455663158048" />
+      <project id="JosephDaniels" values="iOS 8.3" collectionTime="0" />
+      <project id="04bezier_josephd3" values="OS X 10.10" collectionTime="0" />
+      <project id="EpiWatch" values="watchOS 2.2,iOS 9.3" collectionTime="1471371278295" />
+      <project id="OAuthSwift" values="OS X 10.11,iOS 9.0" collectionTime="1444433696016" />
+      <project id="homework3" values="OS X 10.11" collectionTime="1462902194912" />
+      <project id="Uebersicht" values="OS X 10.11" collectionTime="1437269585771" />
+      <project id="SpriteKitSimpleGame" values="iOS 8.4" collectionTime="1441075965941" />
+      <project id="Adventure" values="iOS 8.3,OS X 10.10" collectionTime="0" />
+      <project id="Quotes" values="OS X 10.11" collectionTime="1450362024973" />
+      <project id="Spectacle" values="OS X 10.11" collectionTime="1459379643618" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="03modeling_josephd3" values="Project,Project" collectionTime="0" />
+      <project id="sammm" values="Project,Project" collectionTime="1467302672450" />
+      <project id="Swifton" values="Project,Project" collectionTime="1469712838243" />
+      <project id="nilnil" values="Project,Project" collectionTime="0" />
+      <project id="homework 4" values="Project,Project" collectionTime="1460670835975" />
+      <project id="REACH" values="Project,Project" collectionTime="1471531119445" />
+      <project id="homework5" values="Project,Project" collectionTime="1462902110697" />
+      <project id="PlayBook" values="Project,Project" collectionTime="1465488060464" />
+      <project id="homework2" values="Project,Project" collectionTime="1462923317304" />
+      <project id="homework1" values="Project,Project" collectionTime="1455663160158" />
+      <project id="Roxy" values="Project,Project" collectionTime="1457666429591" />
+      <project id="linphone" values="Project,Project" collectionTime="0" />
+      <project id="Epilepsy" values="Project,Project" collectionTime="1470967778929" />
+      <project id="02primitives" values="Project,Project" collectionTime="0" />
+      <project id="NerdTool" values="Project,Project" collectionTime="1450362024948" />
+      <project id="FactoringAlgorithems" values="Project,Project" collectionTime="1455663158285" />
+      <project id="JosephDaniels" values="Project,Project" collectionTime="0" />
+      <project id="04bezier_josephd3" values="Project,Project" collectionTime="0" />
+      <project id="Glance" values="Project,Project" collectionTime="1458424307309" />
+      <project id="OAuthSwift" values="Project,Project" collectionTime="1444433696019" />
+      <project id="homework3" values="Project,Project" collectionTime="1462902194914" />
+      <project id="Uebersicht" values="Project,Project" collectionTime="1437269585922" />
+      <project id="RayTracer-master" values="Project,Project" collectionTime="0" />
+      <project id="SpriteKitSimpleGame" values="Project,Project" collectionTime="1441075965943" />
+      <project id="EpiWatch" values="Project,Project" collectionTime="1471371278578" />
+      <project id="Adventure" values="Project,Project" collectionTime="0" />
+      <project id="Quotes" values="Project,Project" collectionTime="1450362024974" />
+      <project id="Spectacle" values="Project,Project" collectionTime="1459379643620" />
+    </group>
+    <group name="Git">
+      <project id="PlayBook" values="config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.force.push.enabled,config.warn.about.crlf.enabled,config.save.policy.STASH,config.ssh.enabled" collectionTime="1465488060318" />
+      <project id="Swifton" values="config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,data.local.branches.count.2+,data.remote.branches.count.2+,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.force.push.enabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.ssh.enabled,data.remotes.in.project.1" collectionTime="1469712837972" />
+      <project id="Glance" values="config.push.autoupdate.disabled,data.remotes.in.project.0,data.local.branches.count.1,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,data.remote.branches.count.0,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.save.policy.STASH,config.warn.about.crlf.enabled" collectionTime="1458424306798" />
+      <project id="homework 4" values="config.save.policy.STASH,config.force.push.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled" collectionTime="1460670835826" />
+      <project id="REACH" values="data.local.branches.count.1,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,data.remotes.in.project.1,data.local.branches.count.1,data.remote.branches.count.5+,data.remote.branches.count.5+,config.warn.about.crlf.enabled,config.save.policy.STASH,data.local.branches.count.1,data.remote.branches.count.30+,config.push.update.all.roots.enabled,config.ssh.enabled,data.remotes.in.project.1,data.remote.branches.count.2+,data.local.branches.count.1,data.remote.branches.count.1,data.remote.branches.count.2+,data.remotes.in.project.1,config.cherry-pick.autocommit.disabled,data.local.branches.count.2+,config.force.push.enabled,data.remotes.in.project.1,data.local.branches.count.1,data.remotes.in.project.1,data.local.branches.count.2+,data.remotes.in.project.1,data.remotes.in.project.1,data.remote.branches.count.8+" collectionTime="1471531119256" />
+      <project id="homework5" values="config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.0,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.ssh.enabled,data.remote.branches.count.0,data.local.branches.count.1,config.warn.about.crlf.enabled,config.save.policy.STASH,config.force.push.enabled,config.push.autoupdate.disabled" collectionTime="1462902110696" />
+      <project id="homework3" values="config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,data.local.branches.count.1,config.push.autoupdate.disabled,data.remotes.in.project.0,config.save.policy.STASH,config.ssh.enabled,config.push.update.all.roots.enabled,data.remote.branches.count.0" collectionTime="1462902194913" />
+      <project id="homework2" values="config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1462923317289" />
+      <project id="homework1" values="config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.save.policy.STASH,config.force.push.enabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1455663160151" />
+      <project id="Epilepsy" values="config.repo.sync.NOT_DECIDED,data.local.branches.count.2+,config.cherry-pick.autocommit.disabled,config.force.push.enabled,data.remote.branches.count.5+,config.ssh.enabled,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,data.remotes.in.project.1,config.push.update.all.roots.enabled,config.save.policy.STASH,config.warn.about.detached.enabled" collectionTime="1470967778771" />
+      <project id="FactoringAlgorithems" values="config.warn.about.detached.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,data.remotes.in.project.1,config.push.autoupdate.disabled,data.local.branches.count.2+,data.remote.branches.count.2+,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled" collectionTime="1455663158055" />
+      <project id="EpiWatch" values="config.ssh.enabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,data.remotes.in.project.1,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,data.remote.branches.count.5+,data.local.branches.count.2+,config.update.type.BRANCH_DEFAULT" collectionTime="1471371278370" />
+      <project id="NerdTool" values="config.push.autoupdate.disabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.warn.about.crlf.enabled" collectionTime="1449977181181" />
+      <project id="sammm" values="config.force.push.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled" collectionTime="1467302672285" />
+      <project id="Roxy" values="config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,data.local.branches.count.1,data.remotes.in.project.1,config.ssh.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,data.remote.branches.count.2+" collectionTime="1457666429586" />
+      <project id="Quotes" values="config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.ssh.enabled,config.warn.about.detached.enabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled" collectionTime="1449977181328" />
+      <project id="Spectacle" values="config.force.push.enabled,data.remote.branches.count.2+,config.warn.about.crlf.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,data.local.branches.count.1,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED" collectionTime="1459379643620" />
+    </group>
+    <group name="images.ide.background">
+      <project id="EpiWatch" values="editor 0,frame 0" collectionTime="1471371278291" />
+      <project id="Swifton" values="editor 0,frame 0" collectionTime="1469712837964" />
+      <project id="REACH" values="editor=0,frame=0" collectionTime="1471531119245" />
+      <project id="Epilepsy" values="frame 0,editor 0" collectionTime="1470967778769" />
+      <project id="sammm" values="editor 0,frame 0" collectionTime="1467302672277" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="appcode.cocoapods.install" count="4" />
+      <entry feature="appcode.cocoapods.installGem" count="3" />
+      <entry feature="cidr.completion.qualified" count="18" />
+      <entry feature="cidr.newFile.cppClass" count="1" />
+      <entry feature="designer.open.Unknown" count="4" />
+      <entry feature="diff.TextDiffSettings.IgnorePolicy.DEFAULT" count="1" />
+      <entry feature="diff.TextDiffSettings.IgnorePolicy.IGNORE_WHITESPACES_CHUNKS" count="2" />
+      <entry feature="execute.AppleRunConfiguration.Debug" count="309" />
+      <entry feature="execute.AppleRunConfiguration.Run" count="1180" />
+      <entry feature="ide.help.Colorblind_Settings" count="1" />
+      <entry feature="ide.settings.Appearance" count="14" />
+      <entry feature="ide.settings.C/C++/Objective-C" count="8" />
+      <entry feature="ide.settings.CocoaPods" count="2" />
+      <entry feature="ide.settings.Code_Folding" count="1" />
+      <entry feature="ide.settings.Code_Style" count="2" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="12" />
+      <entry feature="ide.settings.Custom_Plugin_Repositories" count="1" />
+      <entry feature="ide.settings.File_Colors" count="4" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="15" />
+      <entry feature="ide.settings.Font" count="11" />
+      <entry feature="ide.settings.General" count="1" />
+      <entry feature="ide.settings.Keymap" count="16" />
+      <entry feature="ide.settings.Language_Defaults" count="2" />
+      <entry feature="ide.settings.Live_Templates" count="57" />
+      <entry feature="ide.settings.Mongo_Servers" count="1" />
+      <entry feature="ide.settings.Plugins" count="4" />
+      <entry feature="ide.settings.Scopes" count="4" />
+      <entry feature="ide.settings.Smart_Keys" count="1" />
+      <entry feature="ide.settings.Swift" count="8" />
+      <entry feature="ide.settings.Updates" count="1" />
+      <entry feature="idea.caches.invalidated" count="7" />
+      <entry feature="ideaapp.started" count="358" />
+      <entry feature="terminal.mac" count="11" />
+      <entry feature="tips.of.the.day.next" count="4" />
+      <entry feature="vcs.log.GraphArrowClick" count="1" />
+      <entry feature="welcome.screen.CreateXcodeProject" count="3" />
+      <entry feature="welcome.screen.OpenXcodeProject" count="9" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="5" />
+      <entry feature="welcome.screen.WelcomeScreen.Update" count="4" />
+    </counts>
+  </component>
+</application>

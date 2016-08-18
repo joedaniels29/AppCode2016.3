@@ -1,0 +1,81 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>AFNetworking</find>
+      <find>AFHTTPRequestOperationManager</find>
+      <find>#import &lt;APCAppCore/(\w+\.h)&gt;</find>
+      <find>#import &quot;APCAppCore/([\w\+]+\.h)&quot;</find>
+      <find>#import &lt;APCAppCore/([\w\+]+\.h)&gt;</find>
+      <find>API_KEY</find>
+      <find>URL</find>
+      <find>five</find>
+      <find>//  mPower</find>
+      <find>\/\/  Pride\n\/\/\n\/\/  Created by Patrick Krabeepetcharat on 5\/22\/15\.\n\/\/  Copyright \(c\) 2015 Patrick Krabeepetcharat\. All rights reserved\.\n\/\/</find>
+      <find>//  // Copyright (c) 2015, Epilepsy Foundation. All rights reserved.  //  // Redistribution and use in source and binary forms, with or without modification, // are permitted provided that the following conditions are met: //  // 1.  Redistributions of source code must retain the above copyright notice, this // list of conditions and the following disclaimer. //  // 2.  Redistributions in binary form must reproduce the above copyright notice,  // this list of conditions and the following disclaimer in the documentation and/or  // other materials provided with the distribution.  //  // 3.  Neither the name of the copyright holder(s) nor the names of any contributors  // may be used to endorse or promote products derived from this software without  // specific prior written permission. No license is granted to the trademarks of  // the copyright holders even if such marks are included in this software.  //  // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot;  // AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE  // IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE  // ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE  // FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL  // DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR  // SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER  // CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,  // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE  // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.  //</find>
+      <find>\/\/  Pride\n\/\/\n\/\/  Created by Patrick Krabeepetcharat on .\/..\/..\.\n\/\/  Copyright \(c\) 2015 Patrick Krabeepetcharat\. All rights reserved\.\n\/\/</find>
+      <find>\/\/  Epilepsy\n\/\/\n\/\/  Created by iMAC on .\/..\/..\.\n\/\/\n</find>
+      <find>// Copyright (c) 2016 Johns Hopkins Hospital. All rights reserved.</find>
+      <find>\/\/  Epilepsy\n\/\/\n\/\/  Created by \w+ \w+ on .?+\/..\/..\.\n\/\/  Copyright \© 2015 \w+ \w+\. All rights reserved\.\n\/\/</find>
+      <find>\/\/ Copyright \(c\) 2016 Johns Hopkins Hospital\. All rights reserved\.\n \/\/</find>
+      <find>//  Copyright © 2016 Patrick Krabeepetcharat. All rights reserved.</find>
+      <find>\/\/  Epilepsy\n\/\/\n\/\/  Created by \w+ \w+ on .+\/.+\/..\.\n\/\/  Copyright \© 2015 Patrick Krabeepetcharat\. All rights reserved\.\n\/\/</find>
+      <find>\/\/\n\/\/  Created by iMAC on .+\/.+\/.+\.\n\/\/  Copyright \(c\) 201. Epi Track\. All rights reserved\.\n\/\/\n</find>
+      <find>//  ETJournal\n</find>
+      <find>\/\/  Pride\n\/\/\n\/\/  Created by \w+ \w+ on .+\/.+\/.+\.\n\/\/  Copyright \(c\) 2015 Patrick Krabeepetcharat\. All rights reserved\.\n\/\/</find>
+      <find>(:?#import &quot;R1SDK.h&quot;)|(:?#import &quot;R1Emitter.h&quot;)</find>
+      <find>R1Emitter</find>
+      <find>\[\[R1Emitter sharedInstance\][.\s\n\:\@\&quot;]+\]</find>
+      <find>\[\[R1Emitter sharedInstance\] emitScreenViewWithDocumentTitle\:\@\&quot;[\w\s]+?\&quot;(.|\n)+?\];</find>
+      <find>\/\/ RadiumOne Tracking\n   \n</find>
+      <find>widgetHeight</find>
+      <find>cocoalumberjack</find>
+      <find>CocoaLumberjack</find>
+      <find>invalid mockbutton index</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ConstantProperty</replace>
+      <replace>AnyProperty</replace>
+      <replace>=&gt;&gt;</replace>
+      <replace>-&gt;&gt;</replace>
+      <replace>&gt;&gt;-</replace>
+      <replace>*&gt;</replace>
+      <replace>/? *&gt;</replace>
+      <replace>/?</replace>
+      <replace>{</replace>
+      <replace>{[</replace>
+      <replace>{ [</replace>
+      <replace>Roxy</replace>
+      <replace>#import &lt;Google/Analytics.h&gt;\n</replace>
+      <replace>#import &lt;Google/Analytics.h&gt;</replace>
+      <replace>GAI_TRACKING(@&quot;$1&quot;);</replace>
+      <replace>GAI_TRACKING\(\@\&quot;$1\&quot;\)\;</replace>
+      <replace>GAI_INCLUDE</replace>
+      <replace>GAI\_INCLUDE\n</replace>
+      <replace>GAI_TRACKING($1);</replace>
+      <replace>GAI_VC</replace>
+      <replace>!$1</replace>
+      <replace>if $1</replace>
+      <replace>recordSetting[$2] = $1;</replace>
+      <replace>[JournalManager sharedManager]</replace>
+      <replace>#import &quot;$1&quot;</replace>
+      <replace>//  Copyright (c) 2016 Johns Hopkins Hospital. All rights reserved.</replace>
+      <replace>// Copyright (c) 2016 Johns Hopkins Hospital. All rights reserved. \n \\</replace>
+      <replace>// Copyright (c) 2016 Johns Hopkins Hospital. All rights reserved. \n //</replace>
+      <replace>// Copyright (c) 2016 Johns Hopkins Hospital. All rights reserved. \n//</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/Projects/tmp/linphone-iphone/Classes</dir>
+      <dir>$USER_HOME$/Projects/tmp/linphone-iphone</dir>
+      <dir>$USER_HOME$/Projects/Work/REACH/Pods</dir>
+      <dir>$USER_HOME$/Projects/Mine/epiwatch/Epilepsy/Resources/HTMLContent/pages</dir>
+      <dir>$USER_HOME$/Projects/Mine/epiwatch/Epilepsy/</dir>
+      <dir>$USER_HOME$/Projects/Work/epiwatch/etrackerwatch Extension</dir>
+      <dir>$USER_HOME$/Projects/Mine/Swifton/Packages/URI-0.7.4</dir>
+      <dir>$USER_HOME$/Projects/Mine/Swifton/Packages</dir>
+      <dir>$USER_HOME$/Projects/Mine/Swifton/Packages/HTTP-0.6.0/Sources</dir>
+      <dir>$USER_HOME$/Projects/Mine/Swifton/</dir>
+      <dir>$USER_HOME$/Projects/Work/epiwatch/etrackerwatch</dir>
+    </dirStrings>
+  </component>
+</application>

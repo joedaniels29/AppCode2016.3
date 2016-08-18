@@ -1,0 +1,10 @@
+<templateSet group="mpz">
+  <template name="mmc" value="mpz_t $NAME$; mpz_init($NAME$); mpz_set_str($NAME$, &quot;$VAL$&quot;, 10);&#10;$END$" description="declare a var." toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+      <option name="cpp" value="true" />
+    </context>
+  </template>
+</templateSet>

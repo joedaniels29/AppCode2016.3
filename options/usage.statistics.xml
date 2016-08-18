@@ -1,0 +1,24 @@
+<application>
+  <component name="UsagesStatistic" time="1471531078067" allowed="true" show-notification="false" period="weekly">
+    <group id="Build Settings" priority="0.0" data="CLANG_CXX_LANGUAGE_STANDARD gnu++0x=11,CLANG_ENABLE_OBJC_ARC YES=11,GCC_VERSION=10,CLANG_CXX_LIBRARY libc++=11,GCC_C_LANGUAGE_STANDARD gnu99=11,GCC_VERSION com.apple.compilers.llvm.clang.1_0=1,GCC_C_LANGUAGE_STANDARD c99=1" />
+    <group id="Debugger" priority="0.0" data="LLDB=1" />
+    <group id="JavaScript versions" priority="0.0" data="DEFAULT=12" />
+    <group id="Look and Feel" priority="0.0" data="Mac OS X - Default=1" />
+    <group id="SDK" priority="0.0" data="iOS 8.3=5,OS X 10.10=5,OS X 10.9=1,OS X 10.11=1" />
+    <group id="UI Features" priority="0.0" data="Nav Bar visible=1,Toolbar hidden=1,Show tips on startup=1,Recent Files (30  50]=1,Toolbar + NavBar=1,Tool Window buttons visible=1,Tabs Top=1,Status bar visible=1,Retina=1" />
+    <group id="UI File Format" priority="0.0" data="Storyboard iPhone (3.0)=5,Modern Xib iPhone (3.0)=3,Storyboard iPad (3.0)=1,Xib iPhone (8.00)=1,Modern Xib iPad (3.0)=1,Modern Xib OS X (3.0)=2,Xib OS X (8.00)=1,Unknown=1" />
+    <group id="Xcode" priority="0.0" data="Xcode 6.3 (6D570)=-1,Xcode 6.3 (6D570)=1,Xcode 7.0 (7A120f)=1" />
+    <group id="features counts" priority="0.0" data="tips.of.the.day.next=3,welcome.screen.CreateXcodeProject=3,ide.settings.Smart_Keys=1,execute.AppleRunConfiguration.Debug=135,execute.AppleRunConfiguration.Run=663,ideaapp.started=57,welcome.screen.OpenXcodeProject=5,ide.settings.Keymap=2,ide.settings.Colors_&amp;_Fonts=6,ide.settings.C/C++/Objective-C=1,ide.settings.Language_Defaults=2,ide.settings.General=1,ide.settings.Appearance=1,designer.open.Unknown=3" />
+    <group id="file-type" priority="0.0" data="XIB=5,plist=7,ObjectiveC=10,Asset Catalog Contents=7,xconfig=3,Swift=4,Storyboard=6,UNKNOWN=12,Podfile=2,PLAIN_TEXT=6,Images=6,Strings=4,HTML=2,XML=1,CSS=1,JSON=1,JavaScript=1" />
+    <group id="javaScript Scope Usages" priority="0.0" data="Project=24" />
+    <group id="module type" priority="0.0" data="CIDR_MODULE=12" />
+    <group id="non-bundled-plugins" priority="0.0" data="com.intellij=1" />
+    <group id="productivity" priority="0.0" data="editing.completion.basic=1148,refactoring.rename=88,refactoring.appCodeIntroduceVariable=15,navigation.goto.declaration=659,codeassists.altInsert=21,navigation.popup.class=11,codeassists.parameterInfo=23,editing.select.word=1488,codeassists.quickFix=151,codeassists.quickjavadoc=7,codeassists.complete.statement=2,refactoring.extractMethod=3,refactoring.inlineLocalVar=1,codeassists.overrideimplement=1" />
+    <group id="run-configuration-type" priority="0.0" data="AppleRunConfiguration=9" />
+    <group id="run-configuration-type-temp" priority="0.0" data="AppleRunConfiguration=2" />
+    <group id="user.jdk" priority="0.0" data="Apple Inc. 1.6=1" />
+    <group id="user.os.name" priority="0.0" data="Mac OS X=1" />
+    <group id="user.os.version" priority="0.0" data="Mac OS X 10.10.4=1" />
+    <group id="vcs" priority="0.0" data="Git=7" />
+  </component>
+</application>

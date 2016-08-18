@@ -1,0 +1,19 @@
+<application>
+  <component name="ScratchFileService">
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.m" value="ObjectiveC" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.swift" value="Swift" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1" value="JSON" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.m" value="ObjectiveC" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2" value="Swift" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5" value="Swift" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_7" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8" value="TEXT" />
+  </component>
+</application>

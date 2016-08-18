@@ -1,0 +1,43 @@
+/survy/survey/adverseresult
+Method: POST
+
+{
+    "userId" Number
+    "tiredness" Number
+    "headache" Number
+    "hairloss" Number
+    "vision" Number
+    "upsetStomach" Number
+    "weightGain" Number
+    "weightLoss" Number
+    "dizziNess" Number
+    "sleepiness" Number
+    "nausea" Number
+    "abdominalPain" Number
+    "unsteadiness" Number
+    "shakyHands" Number
+}
+
+
+/survy/survey/anxietyresult
+Method: POST
+{
+    "userId" Number
+    "troubleRelaxing" Number
+    "beingRestless" Number
+    "easilyAnnoyed" Number
+    "feelingAfraid" Number
+    "feelingNervous" Number
+    "controlWorrying" Number
+    "anxietyWorrying" Number
+}
+
+heart
+
+/survy/survey/depressionresult
+Method: POST
+{
+    "userId" Number
+    "lossInterest" Number
+    "feelDepressed" Number
+}

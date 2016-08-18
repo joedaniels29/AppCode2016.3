@@ -1,0 +1,100 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="log.debug.categories" value="" />
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="DefaultHtmlDoctype.Refreshed" value="2" />
+    <property name="installation.uid" value="3630794a-d0e5-4657-aca3-280b80ac74c2" />
+    <property name="lastNotifiedMaintenanceExpiring" value="1427085338890" />
+    <property name="NewXcodeProject.Left" value="OS X.Application" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="LayoutCode.optimizeImports" value="false" />
+    <property name="FileTemplates.SelectedTemplate" value="C File Header" />
+    <property name="run.configuration.edit.ad" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="LayoutCode.processChangedText" value="false" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.splitter" value="0.3" />
+    <property name="KEYMAP" value="step over&#10;edit run configur&#10;call&#10;resume&#10;step" />
+    <property name="NewXcodeProject.Right" value="Command Line Tool" />
+    <property name="ColorChooser.RecentColors" value="138-156-37-255,,,50-164-155-255,,,220-58-55-255,,,217-211-194-255,,,46-141-208-255,,,108-114-197-255,,,133-154-0-255,,,56-73-46-255" />
+    <property name="evlsprt3.OC-141.1689" value="10" />
+    <property name="lastTip" value="4" />
+    <property name="evlsprt.OC-141.1689" value="14eb3eb0200" />
+    <property name="evlsprt2.OC-141.1689" value="14e828a26e0" />
+    <property name="evlsprt3.OC-141.2000" value="10" />
+    <property name="ProjectStructure.SecondLevelElements" value="0.20769231" />
+    <property name="FileColorsEnabled" value="true" />
+    <property name="FileColorsForTabsEnabled" value="true" />
+    <property name="FileColorsForProjectViewEnabled" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="1" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="evlsprt.OC-141.2000" value="14f2a5d4600" />
+    <property name="evlsprt2.OC-141.2000" value="14ef89466e7" />
+    <property name="evlsprt3.OC-141.2263" value="13" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_STATUS_BAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
+    <property name="AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="0" />
+    <property name="evlsprt3.OC-141.2391" value="13" />
+    <property name="evlsprt3.7" value="14" />
+    <property name="settings.code.style.selected.tab.Swift" value="Tabs and Indents" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="evlsprt3.OC-142.5239" value="14" />
+    <property name="evlsprt.OC-142.5239" value="150b6e6f200" />
+    <property name="evlsprt2.OC-142.5239" value="150b561a203" />
+    <property name="evlsprt3.9" value="12" />
+    <property name="selected.color.option.type" value="OC.FORMAT_TOKEN" />
+    <property name="fileTypeChangedCounter" value="2" />
+    <property name="PLUGIN_FILTER" value="acej&#10;shifter&#10;mo&#10;inject&#10;UI" />
+    <property name="NewXcodeFile.Left" value="iOS" />
+    <property name="NewXcodeFile.Right" value="Assembly File" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="true" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="false" />
+    <property name="evlsprt3.OC-144.3600" value="18" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="1" />
+    <property name="evlsprt3.OC-144.3891" value="11" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Downloads/intellij-colors-solarized-master/settings.jar&#10;/Users/Joe/.rvm/rubies/ruby-2.3.1/bin/ruby&#10;/Users/Joe/.rvm/rubies/ruby-2.2.0/bin/ruby&#10;/Users/Joe/Projects/School/csmc483/homework5/homework5/homework5&#10;/Users/Joe/Projects/School/csmc483/homework2/homework2.xcodeproj&#10;/Users/Joe/Projects/School/csmc483" />
+    <property name="evlsprt3.OC-144.4199" value="15" />
+    <property name="evlsprt3.OC-145.61" value="17" />
+    <property name="evlsprt3.OC-145.184" value="18" />
+    <property name="evlsprt3.OC-145.256" value="10" />
+    <property name="evlsprt3.OC-145.257" value="13" />
+    <property name="evlsprt3.10" value="12" />
+    <property name="settings.code.style.selected.tab.ObjectiveC" value="Wrapping and Braces" />
+    <property name="evlsprt.OC-145.257" value="1541d39ae00" />
+    <property name="evlsprt2.OC-145.257" value="153f682ae7a" />
+    <property name="evlsprt3.OC-162.646.13" value="15" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="true" />
+    <property name="AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="false" />
+    <property name="evlsprt.OC-162.646.13" value="155a49cfe00" />
+    <property name="evlsprt2.OC-162.646.13" value="1555e2deaab" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.34146342" />
+    <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="true" />
+    <property name="evlsprt3.OC-162.917.9" value="12" />
+    <property name="plugins.preselection.path" value="$USER_HOME$/Downloads/intellij-colors-solarized-master" />
+    <property name="search.everywhere.max.popup.width" value="656" />
+    <property name="evlsprt3.OC-162.1024.11" value="15" />
+    <property name="evlsprt3.OC-162.1120.11" value="11" />
+    <property name="evlsprt.OC-162.1120.11" value="15634cf0e00" />
+    <property name="evlsprt2.OC-162.1120.11" value="155fddc94fd" />
+    <property name="evlsprt3.162" value="14" />
+    <property name="FileTemplates.CurrentTab" value="Includes" />
+  </component>
+</application>

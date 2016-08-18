@@ -1,0 +1,9 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="SURROUND_SELECTION_ON_QUOTE_TYPED" value="true" />
+  </component>
+  <component name="OCCodeFoldingSettings">
+    <option name="collapseBlockExpressions" value="true" />
+    <option name="COLLAPSE_BLOCK_EXPRESSIONS" value="true" />
+  </component>
+</application>
